@@ -8,6 +8,7 @@
     <title>About</title>
 </head>
 <body>
+<header id ="about">
 <?php
 include "_includes/navigation.php";
 ?>

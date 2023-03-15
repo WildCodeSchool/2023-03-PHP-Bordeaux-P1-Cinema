@@ -7,25 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <title>Wild Cinema - Home</title>
+    <title>Wild Cinema - scream 6</title>
 </head>
 <body>
-<?php
-$listMovies= []
-?>
-<header id="home">
-<?php
-include "_includes/navigation.php";
-?>
-<?php
-include "_includes/slide.php";
-?>
+<header id="avatar">
+    <?php
+    include "_includes/navigation.php";
+    ?>
+    <?php
+    include "_includes/slide.php";
+    ?>
 
-
-
-<?php
-include "_includes/footer.php";
-?>
+    <?php
+    include "_includes/footer.php";
+    ?>
 
 </body>
 </html>
