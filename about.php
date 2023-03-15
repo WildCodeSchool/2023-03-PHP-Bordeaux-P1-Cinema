@@ -19,11 +19,11 @@
         ?>
     </header>
 <main>
-    <section>
+    <section class ="cinemaStory">
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aperiam consequuntur corporis excepturi expedita id inventore itaque libero nobis nulla odit officiis sapiente sed sequi vel, veniam voluptates?</p>
 
     </section>
-<section id="contactDetails">
+<section class="contactDetails">
     <article class="carte-responsive">
       <a href="https://goo.gl/maps/wfWth2khu6wud8mx8">
             <img  class="map" src="/assets/images/map.png" alt="Carte de Google de l'emplacement de notre cinéma">
@@ -38,12 +38,26 @@
         <p>
             <a href="mailto:thewildcinema@gmail.com">Mail : thewildcinema@gmail.com</a>
         </p>
-        <p>répondeur : 05 56 78 26 61 </p>
+        <p>répondeur :<a href="tel:+33556782661"> 05 56 78 26 61 </a></p>
 
     </article>
     <article>
         <h2>Tarifs</h2>
+        <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, beatae commodi consectetur consequatur enim excepturi explicabo facere hic illum impedit magni obcaecati perferendis placeat quidem repudiandae sed sit totam velit?</p>
     </article>
+
+</section>
+<section class="contactDetails">
+    <article>
+    <h2>Nos salles</h2>
+    </article>
+<?php
+$halls = ['royalRoom.jpg','blueRoom.jpg', 'theHall.jpg'];
+foreach ($halls as $hall) :
+
+?>
+    <article><img src="asset/images/<?= $hall?>" alt=""> </article>
+   <?php endforeach; ?>
 </section>
 </main>
 </body>
