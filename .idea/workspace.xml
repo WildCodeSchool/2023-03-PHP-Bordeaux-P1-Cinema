@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../codesSchool/COURS PRAGRAMMATION/function message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/modules/cf-slide.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../codesSchool/COURS PRAGRAMMATION/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../codesSchool/COURS PRAGRAMMATION/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../codesSchool/COURS PRAGRAMMATION/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../codesSchool/COURS PRAGRAMMATION/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../codesSchool/COURS PRAGRAMMATION/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../codesSchool/COURS PRAGRAMMATION/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/../codesSchool/COURS PRAGRAMMATION/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbotte2.php" beforeDir="false" afterPath="$PROJECT_DIR$/pussinboots.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-about.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Wild Code School/PhpstormProjects/projetWildCine",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Wild Code School/PhpstormProjects/projetWildCine&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Wild Code School\PhpstormProjects\projetWildCine" />
@@ -75,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678875131480</updated>
       <workItem from="1678875132658" duration="7064000" />
+      <workItem from="1678885308018" duration="7320000" />
     </task>
     <servers />
   </component>
