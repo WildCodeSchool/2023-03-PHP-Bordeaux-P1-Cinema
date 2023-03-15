@@ -17,6 +17,7 @@ $listMovies= []
 <?php
 include "_includes/navigation.php";
 ?>
+</header>
 <?php
 include "_includes/slide.php";
 ?>
