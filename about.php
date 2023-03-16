@@ -17,6 +17,7 @@
         <?php
         include "_includes/navigation.php";
         ?>
+        <div class="headerGradient"></div>
     </header>
 <main>
     <section class ="cinemaStory">
