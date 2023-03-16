@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <title>Wild Cinema - scream 6</title>
+    <title>Wild Cinema - Autant en emporte le vent</title>
 </head>
 <body>
-
+<img src ="assets/images/Autant en emporte le vent_0002.jpg" alt="affiche-film-autant en emporte le vent">
 <?php
 include "_includes/navigation.php";
 ?>

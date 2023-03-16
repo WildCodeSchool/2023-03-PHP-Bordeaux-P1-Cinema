@@ -1,0 +1,51 @@
+:root {
+    --background-color: #1f1d1e;
+    --text-color: white;
+    --text-color-footer: white;
+    --logo-color: #e51937;
+    --title-font: "#";
+    --body-text: "#";
+    --body-text-sizing: "#";
+    --spacing: 8px;
+}
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color:var(--text-color) }
+a:hover{color:var(--logo-color)}
+body{background-color:var(--background-color); }
+p{line-height:1.5}
+
+#home{background: url("../../images/cinemaTopSmall.jpg") no-repeat top center ;background-size: 100%;height:30vh;width:100vw}
+
+.oldMovieGallery article{ display: flex;justify-content: center;flex-direction:column;margin: auto; width: 80%;align-items: center}
+.oldMovieGallery article img{width: 80% ;height: auto; margin-top:12px}
+
+
+article {width: 80% ;}
+article h2{text-align: right}
+
+
+
+
+@media screen and (min-width: 767px){
+    #home{background: url("../../images/cinemaTopMedium.jpg") no-repeat top center ;background-size: cover;height:50vh;width:100vw}
+
+}
+@media screen and (min-width: 968px){
+    #home{background: url("../../images/cinemaTop.jpg") no-repeat top center ;background-size: cover;height:60vh;width:100vw}
+    .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
+    .contactDetails article:first-child{width: 59% ;}
+    .contactDetails article:nth-child(2){width: 35% ;}
+
+    .contactGallery{width: 80% ;margin:12px auto;}
+    .contactGallery article{width: 100% ;margin:12px 0;flex-direction:row;justify-content: space-between;flex-wrap: wrap}
+    .contactGallery h2{width: 100% ;text-align: right}
+    .contactGallery article img{width: 25% ;height: auto; margin-top:12px}
+}
+@media screen and (min-width: 1200px) {
+    #about {
+        background: url("../../images/cinemaTop.jpg") no-repeat top center;
+        background-size: cover;
+        height: 75vh;
+        width: 100vw
+    }
+}

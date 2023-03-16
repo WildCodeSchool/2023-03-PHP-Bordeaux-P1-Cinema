@@ -1,0 +1,58 @@
+:root {
+    --background-color: #1f1d1e;
+    --text-color: white;
+    --text-color-footer: white;
+    --logo-color: #e51937;
+    --title-font: "#";
+    --body-text: "#";
+    --body-text-sizing: "#";
+    --spacing: 8px;
+}
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color:var(--text-color) }
+a:hover{color:var(--logo-color)}
+body{background-color:var(--background-color); }
+p{line-height:1.5}
+
+#about{background: url("../../images/cinemaTopSmall.jpg") no-repeat top center ;background-size: 100% auto;height:30vh;width:100vw}
+.headerGradient { height:50vh;
+    background: linear-gradient(0deg, rgba(31,29,30,1) 0%, rgba(31,29,30,0) 100%);
+}
+
+.cinemaStory{display: flex;justify-content: flex-start;margin: -50px 0 24px 3%}
+.contactDetails,.contactGallery article{ display: flex;justify-content: center;flex-direction:column;width: 100% ;align-items: center}
+.carte-responsive iframe{width:100%;height:60vh}
+h2{margin :12px 0;width: 100% ;color:var(--logo-color)}
+
+.contactGallery article img{width: 100% ;height: auto; margin-top:12px}
+section >p{color:var(--text-color); width: 50%}
+article p{color:var(--text-color);text-align: right}
+article {width: 80% ;}
+article h2{text-align: right}
+
+
+.map {width: 100% ;height :auto;}
+
+@media screen and (min-width: 767px){
+    #about{background: url("../../images/cinemaTopMedium.jpg") no-repeat top center ; ;height:50vh;width:100vw}
+
+}
+@media screen and (min-width: 968px){
+    #about{background: url("../../images/cinemaTop.jpg") no-repeat top center ;background-size: cover;height:60vh;width:100vw}
+    .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
+    .contactDetails article:first-child{width: 59% ;}
+    .contactDetails article:nth-child(2){width: 35% ;}
+
+    .contactGallery{width: 80% ;margin:12px auto;}
+    .contactGallery article{width: 100% ;margin:12px 0;flex-direction:row;justify-content: space-between;flex-wrap: wrap}
+    .contactGallery h2{width: 100% ;text-align: right}
+    .contactGallery article img{width: 25% ;height: auto; margin-top:12px}
+}
+@media screen and (min-width: 1200px) {
+    #about {
+        background: url("../../images/cinemaTop.jpg") no-repeat top center;
+        background-size: cover;
+        height: 75vh;
+        width: 100vw
+    }
+}

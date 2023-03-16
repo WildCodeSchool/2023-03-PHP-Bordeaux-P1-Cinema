@@ -7,14 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <title>Wild Cinema - scream 6</title>
+    <title>Wild Cinema - Creed 3</title>
 </head>
 <body>
-
 <?php
 include "_includes/navigation.php";
 ?>
-
+<img src ="assets/images/s-l1600.jpg" alt="affiche-film-le cinquième élément">
 
 <?php
 include "_includes/footer.php";
