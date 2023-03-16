@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <title>Wild Cinema - Le Chat Potté 2</title>
+    <title>Wild Cinema - Le Cinquième élément</title>
 </head>
 <body>
 <?php
