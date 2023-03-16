@@ -2,7 +2,7 @@
 <nav class="navBar">
 
     <!-- Le LOGO du haut-->
-    <a href="#" class="firstlogo">LOGO</a>
+    <a href="#" class="firstLogo">LOGO</a>
 
     <!-- Partie barre de recherche + boutton OK-->
     <div>

@@ -50,6 +50,10 @@ a {
     display:none;
 }
 
+.navBar{
+    flex-grow: ;
+}
+
 
 /*header {
 height: 100vh;
@@ -97,7 +101,7 @@ background-size : cover;
     .accueil {
         display: none;
     }
-    .firstlogo {
+    .firstLogo {
         display:none;
 
     }
@@ -127,3 +131,4 @@ nav button[type="submit"] {
     background-color: #333;
     color: #fff;
 }
+
