@@ -13,7 +13,7 @@
 <?php
 include "_includes/navigation.php";
 ?>
-
+<img src ="assets/images/Terminator2.jpeg" alt="affiche-film-Terminator 2">
 
 <?php
 include "_includes/footer.php";

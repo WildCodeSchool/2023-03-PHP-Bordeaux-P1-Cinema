@@ -13,7 +13,7 @@
 <?php
 include "_includes/navigation.php";
 ?>
-
+<img src ="assets/images/043449_af.jpg" alt="affiche-film-Matrix">
 
 <?php
 include "_includes/footer.php";
