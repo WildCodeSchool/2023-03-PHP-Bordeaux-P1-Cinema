@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <title>Wild Cinema - scream 6</title>
+    <title>Wild Cinema - Avatar</title>
 </head>
 <body>
 <header id="avatar">

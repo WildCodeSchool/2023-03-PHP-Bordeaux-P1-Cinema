@@ -7,14 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <title>Wild Cinema - scream 6</title>
+    <title>Wild Cinema - Terminator 2</title>
 </head>
 <body>
-
 <?php
 include "_includes/navigation.php";
 ?>
-
+<img src ="assets/images/Terminator2.jpeg" alt="affiche-film-Terminator 2">
 
 <?php
 include "_includes/footer.php";
