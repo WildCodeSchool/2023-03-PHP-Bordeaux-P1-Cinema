@@ -14,7 +14,7 @@
 include "_includes/navigation.php";
 ?>
 
-
+<img src ="assets/images/Capture d’écran 2023-03-15 à 20.37.14.jpeg" alt="affiche-film-Le chat potté 2">
 <?php
 include "_includes/footer.php";
 ?>

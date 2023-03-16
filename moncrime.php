@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <title>Wild Cinema - Creed 3</title>
+    <title>Wild Cinema - Avatar</title>
 </head>
 <body>
+<header id="avatar">
 <?php
 include "_includes/navigation.php";
 ?>
-<img src ="assets/images/Capture d’écran 2023-03-09 à 19.09.27.png" alt="affiche-film-Creed 3">
-
+    <img src ="assets/images/Mon_Crime.jpg" alt="affiche-film-Mon crime">
 <?php
 include "_includes/footer.php";
 ?>

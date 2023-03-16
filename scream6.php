@@ -14,7 +14,7 @@
 <?php
 include "_includes/navigation.php";
 ?>
-
+<img src ="assets/images/scream6.jpeg" alt="affiche-film-Scream 6">
 
 <?php
 include "_includes/footer.php";

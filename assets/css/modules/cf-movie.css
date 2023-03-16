@@ -1,0 +1,22 @@
+.pictureGallery img {
+    max-width: 250px;
+    max-height: 200px;
+}
+.pictureGallery{
+    display: flex;
+    margin-top: 10%;
+}
+.synopsis {
+    color : white;
+    margin-left: 50px;
+}
+.moviesImages {
+    padding-top: 80px;
+    display: flex;
+}
+.filmPoster {
+    max-height: 400px;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-left: 50px;
+}

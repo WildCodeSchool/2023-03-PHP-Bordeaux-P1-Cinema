@@ -23,3 +23,7 @@ tr{
     background-color: black;
     color: white;
 }
+table img{
+    width : 100%;
+    height:auto;
+}
