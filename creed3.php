@@ -11,18 +11,18 @@
 </head>
 <body>
 <header id="creed3">
-<?php
-include "_includes/navigation.php";
-?>
-   <div id="youtubeOn" onclick="youtubeButton()"></div>
+    <?php
+        include "_includes/navigation.php";
+    ?>
+    <div id="youtubeOn" onclick="youtubeButton()"></div>
     <iframe id="youtube" src="https://www.youtube.com/embed/D_avHhjjmtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
 </header>
 
-<?php
-include "_includes/footer.php";
 
-?>
+    <?php
+        include "_includes/footer.php";
+    ?>
 
 </body>
 <script src="assets/js/script.js"></script>
