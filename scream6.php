@@ -10,6 +10,7 @@
     <title>Wild Cinema - scream 6</title>
 </head>
 <body>
+
 <?php
 include "_includes/navigation.php";
 ?>
