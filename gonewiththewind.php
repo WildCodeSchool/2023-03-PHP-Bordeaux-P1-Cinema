@@ -10,6 +10,7 @@
     <title>Wild Cinema - Autant en emporte le vent</title>
 </head>
 <body>
+<img src ="Autant en emporte le vent_0002.jpg">
 <?php
 include "_includes/navigation.php";
 ?>
