@@ -104,7 +104,7 @@
         </tr>
         <tr class="grey-tab">
             <td>
-                <a href="fithelement.php"><img src="assets/images/s-l1600.jpg" height="100px"></a>
+                <a href="fithelement.php"><img src="assets/images/8nx8sttha1zidt73sbnncvfswqk-989.jpg" height="100px"></a>
             </td>
             <td>16:00</td>
             <td>11:30</td>

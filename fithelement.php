@@ -13,7 +13,7 @@
 <?php
 include "_includes/navigation.php";
 ?>
-<img src ="assets/images/s-l1600.jpg" alt="affiche-film-le cinquième élément">
+<img src ="assets/images/8nx8sttha1zidt73sbnncvfswqk-989.jpg" alt="affiche-film-le cinquième élément">
 
 <?php
 include "_includes/footer.php";
