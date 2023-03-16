@@ -13,8 +13,8 @@ nav {
     padding: 20px;
     justify-content: space-between;
     justify-items: center;
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width: 100vw;
 }
 
 nav ul {
@@ -43,73 +43,16 @@ a {
 
 .bouttonup {
     display: none;
-    position: absolute;
+
 }
 
 .secondlogo{
     display:none;
 }
 
-.navBar{
-    flex-grow: ;
+.firstLogo{
+    flex-grow: 1;
 }
-
-
-/*header {
-height: 100vh;
-width: 50vw;
-background-image : url(.......);
-background-size : cover;
- */
-
-/* <-- Media queries --> */
-
-@media (max-width: 768px) {
-    nav {
-        flex-direction: row;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-        /*placer ici une limite de hauteur de la bande noir*/
-    }
-
-    nav ul {
-        flex-direction: row;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        gap: 125px;
-    }
-
-    nav li {
-        margin: 0;
-    }
-
-    nav div input, nav div button {
-        display: none;
-    }
-
-    .bouttonup{
-        display: flex;
-    }
-
-    .accueil {
-        display: none;
-    }
-    .firstLogo {
-        display:none;
-
-    }
-    .secondlogo{
-        display: flex;
-    }
-}
-
 
 /*<-- Mise en forme de la barre de recherche --> */
 
@@ -131,4 +74,81 @@ nav button[type="submit"] {
     background-color: #333;
     color: #fff;
 }
+
+
+
+
+
+
+/* <-- Media queries --> */
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        max-width: 100vw;
+        display: flex;
+        justify-content: center;
+
+        /*placer ici une limite de hauteur de la bande noir*/
+    }
+
+    nav ul {
+        flex-direction: row;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    nav li {
+        margin: 0;
+    }
+
+    .navbar a{
+        display: block;
+        padding: 10px;
+
+    }
+
+    nav div input, nav div button {
+        display: none;
+    }
+
+    .bouttonup{
+        display:flex;
+
+    }
+
+    .accueil {
+        display: none;
+        visibility: hidden;
+
+    }
+    .firstLogo {
+        display:none;
+
+    }
+    .secondlogo{
+        display: flex;
+    }
+
+    .navbar{
+        height: auto;
+        width:100vw;
+
+    }
+
+    .navLinks {
+        padding-right: 50px;
+    }
+
+}
+
 
