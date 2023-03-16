@@ -22,6 +22,9 @@ article {width: 80% ;}
 article h2{text-align: right}
 
 
+/*fiche film*/
+#youtubeButton{width: 50px}
+
 .map {width: 100% ;height :auto;}
 
 @media screen and (min-width: 767px){
