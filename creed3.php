@@ -14,11 +14,12 @@
 <?php
 include "_includes/navigation.php";
 ?>
+
    <button id="youtubeOn" onclick="youtubeButton()">buton</button>
     <iframe id="youtube" src="https://www.youtube.com/embed/D_avHhjjmtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <button id="youtubeClose" onclick="youtubeButtonCLose()">buton</button>
 </header>
-<img src ="assets/images/s-l1600.jpg" alt="affiche-film-le cinquième élément">
+
 
 <?php
 include "_includes/footer.php";
