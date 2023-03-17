@@ -2,9 +2,21 @@
     --background-color: #1f1d1e;
     --text-color: white;
     --text-color-footer: white;
+    --link-color: white;
+    --link-color-hover: #71152cc7;
     --logo-color: #e51937;
     --title-font: "#";
     --body-text: "#";
     --body-text-sizing: "#";
+    --title-text-sizing: 24px;
+    --nav-text-sizing: "#";
+    --footer-text-sizing: "#";
+    --button-border: "#";
+    --button-background-color: "#";
+    --button-background-color-hover: ???"#"?;
+    --button-text-font: "#";
+    --button-text-size: "#";
+    --button-hover: "#";
+
     --spacing: 8px;
 }

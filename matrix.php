@@ -13,18 +13,19 @@
 <?php
 include "_includes/navigation.php";
 ?>
-<div class="descriptionMovie">
-    <img class="filmPoster" src ="assets/images/043449_af.jpg" alt="affiche-film-Terminator 2">
-    <h2>Synopsis</h2>
-    <p class="synopsis">Se déroulant plus d’une décennie après les événements relatés dans le premier film,<br><strong>AVATAR : LA VOIE DE L’EAU</strong> raconte l'histoire des membres de la famille Sully (Jake, Neytiri et leurs enfants),<br>les épreuves auxquelles ils sont confrontés, les chemins qu’ils doivent emprunter pour se protéger les uns les autres,<br>les batailles qu’ils doivent mener pour rester en vie et les tragédies qu'ils endurent.</p>
-    <div class="casting"></div><h3>Casting</h3>
-    <p>réaliser par :<p>
-    <p>James Cameron</p>
-    <p>Acteurs:</p>
-    <p>tur assumenda commodi,<br> corporis deleniti enim<br> et eum ex expedita<br> explicabo facilis iste molestiae na</p>
+<div class="movieDescription">
+    <img class="moviePoster" src ="assets/images/043449_af.jpg" alt="affiche-film-Matrix">
+    <div class ="synopsis">
+        <h2>Synopsis</h2>
+        <p>Programmeur anonyme dans un service administratif le jour, Thomas Anderson devient Neo la nuit venue. Sous ce pseudonyme, il est l'un des pirates les plus recherchés du cyber-espace. À cheval entre deux mondes, Neo est assailli par d'étranges songes et des messages cryptés provenant d'un certain Morpheus. Celui-ci l'exhorte à aller au-delà des apparences et à trouver la réponse à la question qui hante constamment ses pensées : qu'est-ce que la Matrice ?</p>
+    </div>
+    <div class="casting">
+        <h2>Casting</h2>
+        <p>réaliser par : <br>Lana Wachowski & Lilly Wachowski</p>
+        <p>Acteurs:<br>Keanu Reeves<br>Carrie-Anne Moss<br>Hugo Weaving<br>Laurence Fishburne</p>
+    </div>
 </div>
-</section>
-<!------end of movie description------>
+
 <h2>Galerie</h2>
 <!---- Start of gallery------>
 <div class="pictureGallery">
