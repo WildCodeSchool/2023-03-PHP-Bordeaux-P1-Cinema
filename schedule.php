@@ -14,7 +14,6 @@
     include "_includes/navigation.php";
     ?>
 </header>
-    <body>
     <table>
         <thead>
         <tr>
@@ -28,18 +27,17 @@
             <th>Mardi</th>
         </tr>
         </thead>
-        <body>
         <tr class="grey-tab">
             <td>
                 <a href="avatar.php">
-                    <img src="assets/images/Capture d’écran 2023-03-09 à 19.08.51.png" height="100px"></a>
+                    <img src="assets/images/Capture d’écran 2023-03-09 à 19.08.51.png" alt="affiche-film-avatar" height="100px"></a>
             </td>
             <td>21:00</td>
             <td>18:00</td>
             <td>22:00</td>
             <td>11:30<br><br>19:00</td>
             <td>21:00</td>
-            <td><img src="assets/images/Capture_d_Ã©cran_2023-03-15_Ã _20.04.21-removebg-preview.png" height="100px"></td>
+            <td><img src="assets/images/Capture_d_Ã©cran_2023-03-15_Ã _20.04.21-removebg-preview.png" alt="affiche-film-creed3" height="100px"></td>
             <td>20:00</td>
         </tr>
         <tr class="black-tab">
@@ -56,7 +54,7 @@
         </tr>
         <tr class="grey-tab">
             <td>
-                <a href="scream6.php"><img src="assets/images/scream6.jpeg" height="100px"></a>
+                <a href="scream6.php"><img src="assets/images/scream6.jpeg" alt="affiche-film-scream6" height="100px"></a>
             </td>
             <td>14:30<br><br>22:00</td>
             <td>18:00</td>
@@ -68,7 +66,7 @@
         </tr>
         <tr class="black-tab">
             <td>
-                <a href="moncrime.php"><img src="assets/images/Mon_Crime.jpg" height="100px"></a>
+                <a href="moncrime.php"><img src="assets/images/Mon_Crime.jpg" lt="affiche-film-Mon Crime" height="100px"></a>
             </td>
             <td>15:00<br><br>20:00</td>
             <td>21:00</td>
@@ -80,7 +78,7 @@
         </tr>
         <tr class="grey-tab">
             <td>
-                <a href="pussinboots.php"><img src="assets/images/Capture d’écran 2023-03-15 à 20.37.14.jpeg" height="100px"></a>
+                <a href="pussinboots.php"><img src="assets/images/Capture d’écran 2023-03-15 à 20.37.14.jpeg" alt="affiche-film-Chat Potté 2" height="100px"></a>
             </td>
             <td><img src="assets/images/Capture_d_Ã©cran_2023-03-15_Ã _20.04.21-removebg-preview.png" height="100px"></td>
             <td>18:00</td>
@@ -138,5 +136,8 @@
             <td>20:30</td>
             <td>21:00</td>
         </tr>
+        <?php
+        include "_includes/footer.php";
+        ?>
         </body>
 </html>
