@@ -5,7 +5,10 @@ a:hover{color:var(--logo-color)}
 body{background-color:var(--background-color); }
 p{line-height:1.5}
 
-#about{background: url("../../images/cinemaTopSmall.jpg") no-repeat top center ;background-size: 100% auto;height:30vh;width:100vw;position:relative;}
+/*Header*/
+#about{background: url("../../images/cinemaTopSmall.jpg") no-repeat top center;background-size: cover;}
+#creed3{background: url("../../images/creedTopSmall.jpg") no-repeat top right;background-size: 100%;}
+header{height:30vh;width:100vw;position:relative;}
 .headerGradient { height:50vh;bottom:-36px;
     background: linear-gradient(0deg, rgba(31,29,30,1) 0%, rgba(31,29,30,0) 100%);
 }
@@ -21,35 +24,58 @@ article p{color:var(--text-color);text-align: right}
 article {width: 80% ;}
 article h2{text-align: right}
 
+.contactGallery article img{width:80%;margin-bottom:3%}
 
 /*fiche film*/
 #youtubeButton{width: 50px}
 
 .map {width: 100% ;height :auto;}
 
-@media screen and (min-width: 767px){
-    #about{background: url("../../images/cinemaTopMedium.jpg") no-repeat top center ; ;height:50vh;width:100vw}
 
+/*Media queries*/
+@media screen and (min-width: 650px) {
+    #creed3 {background-size: cover;}
+}
+@media screen and (min-width: 767px) {
+    header {height: 50vh; width: 100vw;}
+    #about {background: url("../../images/cinemaTopMedium.jpg") no-repeat top center;}
+    #creed3 {background: url("../../images/creedTopMedium.jpg") no-repeat top right;}
 }
 @media screen and (min-width: 968px){
-    #about{background: url("../../images/cinemaTop.jpg") no-repeat top center ;background-size: cover;height:60vh;width:100vw}
+    #about{background: url("../../images/cinemaTop.jpg") no-repeat top center ;}
+    #creed3 {background: url("../../images/creedTop.jpg") no-repeat top right ;}
+    header{height:75vh;width:100vw}
     .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
     .contactDetails article:first-child{width: 59% ;}
     .contactDetails article:nth-child(2){width: 35% ;}
 
     .contactGallery{width: 80% ;margin:12px auto;}
-    .contactGallery article{width: 100% ;margin:12px 0;flex-direction:row;justify-content: space-between;flex-wrap: wrap}
+    .contactGallery article{width: 100% ;margin:12px 0;flex-direction:row;justify-content: space-between;flex-wrap: wrap;}
     .contactGallery h2{width: 100% ;text-align: right}
     .contactGallery article img{width: 25% ;height: auto; margin-top:12px}
 }
 @media screen and (min-width: 1200px) {
-    #about {
-        background: url("../../images/cinemaTop.jpg") no-repeat top center;
-        background-size: cover;
-        height: 75vh;
-        width: 100vw
-    }
+    #about {background: url("../../images/cinemaTop.jpg") no-repeat top center;}
+    #creed3 {background: url("../../images/creedTop.jpg") no-repeat top right;background-size: cover;}
+    header {height: 80vh;width: 100vw;}
+
 }
+
+/*Creed 3*/
 #creed3{position:relative;}
-#youtube{width:300px;height:250px}
-#youtubeOn{position : absolute;top: 150px; width: 100px; left: 50%;margin-left:-50px}
+header iframe{margin:auto; }
+#youtubeOn{position : absolute;top: 150px; width: 70px; height :40px; left: 50%;margin-left:-35px;background: url("../../images/youtube.png") no-repeat top center; }
+#youtube{width:80%;height:250px;position: relative;}
+#youtubeClose{position : absolute;top: 5px; width: 70px; height :40px; left: 85%;padding-top:8px;background: url("../../images/close.png") no-repeat top center; }
+#youtubeClose span{margin-left:-20px;padding-top:8px; color: var(--logo-color)}
+
+@media screen and (min-width:764px) {
+    #youtube{width:80%;height:300px;top:100px}
+    #youtubeOn{position : absolute;top: 150px;}
+    #youtubeClose{top: 90px;}
+}
+@media screen and (min-width: 968px){
+    #youtube{width:864px;height:450px;top:100px}
+    #youtubeOn{position : absolute;top: 370px;}
+    #youtubeClose{left:90%}
+}
