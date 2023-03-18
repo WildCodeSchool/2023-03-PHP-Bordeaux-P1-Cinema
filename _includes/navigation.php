@@ -11,7 +11,7 @@
 <body>
 <nav class="navbar">
     <div class="logo">
-        <img src="assets/images/Logo definitif.png" alt="Logo">
+        <img src="assets/images/logoDefinitif.png" alt="Logo">
     </div>
     <div class="search">
         <form>
@@ -27,7 +27,7 @@
         <ul>
             <li><a href="#">Accueil</a></li>
             <li><a href="#">Films</a></li>
-            <img src="assets/images/Logo definitif.png" alt="Logo" class="logo2">
+            <img src="assets/images/logoDefinitif.png" alt="Logo" class="logo2">
             <li><a href="#">Horaires</a></li>
             <li><a href="#">Contacts</a></li>
         </ul>
