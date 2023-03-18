@@ -1,0 +1,43 @@
+.pictureGallery img {
+    max-width: 200px;
+    max-height: 150px;
+    margin-left: 10%;
+    transition: all 0.1ms ease-in-out;
+}
+.pictureGallery{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    gap: 60px
+}
+.pictureGallery img:hover{
+    transform: scale(1.2);
+}
+.moviePoster{
+    height: 600px;
+    width: 400px;
+    padding-top: 4%;
+    margin-left: 3%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.movieDescription {
+    display: flex;
+    align-items: flex-start;
+}
+.synopsis {
+    color: white;
+    padding-top: 70px;
+    max-height: 375px;
+    margin-left: 15px;
+}
+.casting {
+    color: white;
+    padding-top: 300px;
+    max-height: 375px;
+    margin-left: 15px;
+}
+h2 {
+    text-align: center;
+}

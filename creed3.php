@@ -70,9 +70,10 @@
 </main>
 
 
-    <?php
-        include "_includes/footer.php";
-    ?>
+<?php
+include "_includes/footer.php";
+?>
+
 
 </body>
 <script src="assets/js/script.js"></script>
