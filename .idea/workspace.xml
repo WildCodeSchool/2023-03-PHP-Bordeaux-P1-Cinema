@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creed3.php" beforeDir="false" afterPath="$PROJECT_DIR$/creed3.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +76,8 @@
       <workItem from="1678892670370" duration="5484000" />
       <workItem from="1678952646461" duration="9080000" />
       <workItem from="1678966404125" duration="5885000" />
-      <workItem from="1678974687609" duration="14387000" />
+      <workItem from="1678974687609" duration="15213000" />
+      <workItem from="1679046055523" duration="9472000" />
     </task>
     <servers />
   </component>

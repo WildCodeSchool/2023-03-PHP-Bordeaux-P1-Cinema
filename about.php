@@ -18,7 +18,7 @@
         include "_includes/navigation.php";
         ?>
     </header>
-<main>
+
     <main>
         <section class ="cinemaStory">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aperiam consequuntur corporis excepturi expedita id inventore itaque libero nobis nulla odit officiis sapiente sed sequi vel, veniam voluptates?</p>
@@ -55,7 +55,7 @@
             <?php  $halls = [
                 "royalRoom"=>"La salle royal de The Wild Cinema",
                 "blueRoom"=>"La salle bleu de The Wild Cinema",
-                "theHall "=>"Le hall d'entrée de The Wild Cinema"];
+                "theHall"=>"Le hall d'entrée de The Wild Cinema"];
             foreach ($halls as $key=>$alt) : ?>
                 <img src="../../assets/images/<?= $key; ?>.jpg" alt="<?= $alt; ?>">
 

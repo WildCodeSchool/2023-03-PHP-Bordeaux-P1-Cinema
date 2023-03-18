@@ -4,6 +4,8 @@ let youtubeClose = document.getElementById("youtubeClose");
 youtube.style.display="none";
 youtubeClose.style.display="none";
 
+
+
 function youtubeButton(){
     if(true){
     youtube.style.display="block";
@@ -12,6 +14,7 @@ function youtubeButton(){
     }
 
 }
+
 function youtubeButtonCLose(){
     if(true){
         youtube.style.display="none";

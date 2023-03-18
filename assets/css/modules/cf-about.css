@@ -24,6 +24,7 @@ article p{color:var(--text-color);text-align: right}
 article {width: 80% ;}
 article h2{text-align: right}
 
+.contactGallery article img{width:80%;margin-bottom:3%}
 
 /*fiche film*/
 #youtubeButton{width: 50px}
@@ -43,20 +44,20 @@ article h2{text-align: right}
 @media screen and (min-width: 968px){
     #about{background: url("../../images/cinemaTop.jpg") no-repeat top center ;}
     #creed3 {background: url("../../images/creedTop.jpg") no-repeat top right ;}
-    header{height:60vh;width:100vw}
+    header{height:75vh;width:100vw}
     .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
     .contactDetails article:first-child{width: 59% ;}
     .contactDetails article:nth-child(2){width: 35% ;}
 
     .contactGallery{width: 80% ;margin:12px auto;}
-    .contactGallery article{width: 100% ;margin:12px 0;flex-direction:row;justify-content: space-between;flex-wrap: wrap}
+    .contactGallery article{width: 100% ;margin:12px 0;flex-direction:row;justify-content: space-between;flex-wrap: wrap;}
     .contactGallery h2{width: 100% ;text-align: right}
     .contactGallery article img{width: 25% ;height: auto; margin-top:12px}
 }
 @media screen and (min-width: 1200px) {
     #about {background: url("../../images/cinemaTop.jpg") no-repeat top center;}
-    #creed3 {background: url("../../images/creedTop.jpg") no-repeat top right;background-size: cover}
-    header {height: 75vh;width: 100vw;;}
+    #creed3 {background: url("../../images/creedTop.jpg") no-repeat top right;background-size: cover;}
+    header {height: 80vh;width: 100vw;}
 
 }
 
@@ -65,16 +66,16 @@ article h2{text-align: right}
 header iframe{margin:auto; }
 #youtubeOn{position : absolute;top: 150px; width: 70px; height :40px; left: 50%;margin-left:-35px;background: url("../../images/youtube.png") no-repeat top center; }
 #youtube{width:80%;height:250px;position: relative;}
-#youtubeClose{position : absolute;top: 230px; width: 70px; height :40px; left: 50%;padding-top:8px;margin-left:-35px;background: url("../../images/close.png") no-repeat top center; }
+#youtubeClose{position : absolute;top: 5px; width: 70px; height :40px; left: 85%;padding-top:8px;background: url("../../images/close.png") no-repeat top center; }
 #youtubeClose span{margin-left:-20px;padding-top:8px; color: var(--logo-color)}
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width:764px) {
     #youtube{width:80%;height:300px;top:100px}
     #youtubeOn{position : absolute;top: 150px;}
-    #youtubeClose{top: 395px;}
+    #youtubeClose{top: 90px;}
 }
 @media screen and (min-width: 968px){
     #youtube{width:864px;height:450px;top:100px}
     #youtubeOn{position : absolute;top: 370px;}
-    #youtubeClose{top: 542px;}
+    #youtubeClose{left:90%}
 }
