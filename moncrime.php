@@ -15,20 +15,22 @@
 include "_includes/navigation.php";
 ?>
 </header>
-    <!---Movie description--->
-    <div class="descriptionMovie">
-        <img class="filmPoster" src ="assets/images/Mon_Crime.jpg" alt="affiche-film-Mon Crime">
+<!---Movie description--->
+<div class="movieDescription">
+    <img class="moviePoster" src ="assets/images/Mon_Crime.jpg" alt="affiche-film-Mon Crime">
+    <div class ="synopsis">
         <h2>Synopsis</h2>
-        <p class="synopsis">Se déroulant plus d’une décennie après les événements relatés dans le premier film,<br><strong>AVATAR : LA VOIE DE L’EAU</strong> raconte l'histoire des membres de la famille Sully (Jake, Neytiri et leurs enfants),<br>les épreuves auxquelles ils sont confrontés, les chemins qu’ils doivent emprunter pour se protéger les uns les autres,<br>les batailles qu’ils doivent mener pour rester en vie et les tragédies qu'ils endurent.</p>
-        <div class="casting"></div><h3>Casting</h3>
-        <p>réaliser par :<p>
-        <p>James Cameron</p>
-        <p>Acteurs:</p>
-        <p>tur assumenda commodi,<br> corporis deleniti enim<br> et eum ex expedita<br> explicabo facilis iste molestiae na</p>
+        <p>Dans les années 30 à Paris, Madeleine Verdier, jeune et jolie actrice sans le sou et sans talent, est accusée du meurtre d’un célèbre producteur. Aidée de sa meilleure amie Pauline, jeune avocate au chômage, elle est acquittée pour légitime défense. Commence alors une nouvelle vie, faite de gloire et de succès, jusqu’à ce que la vérité éclate au grand jour…</p>
     </div>
-    </section>
-    <!----------End of movie description------->
-    <h2>Galerie</h2>
+    <div class="casting">
+        <h2>Casting</h2>
+        <p>réaliser par : <br>François Ozon</p>
+        <p>Acteurs:<br>Nadia Tereszkiewicz<br>André Dussolier<br>Dany Boon <br>Fabrice Lucchini<br>Isabelle Hupert</p>
+    </div>
+</div>
+
+<!----------End of movie description------->
+<h2>Galerie</h2>
     <!---- Start of gallery------>
     <div class="pictureGallery">
         <img src="assets/capture/640611b61a5bf_2236421.jpg" alt="personnages-avatar">

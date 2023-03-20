@@ -13,18 +13,21 @@
 <?php
 include "_includes/navigation.php";
 ?>
-<div class="descriptionMovie">
-    <img class="filmPoster" src ="assets/images/8nx8sttha1zidt73sbnncvfswqk-989.jpg" alt="affiche-film-le cinquième élément">
-    <h2>Synopsis</h2>
-    <p class="synopsis">Se déroulant plus d’une décennie après les événements relatés dans le premier film,<br><strong>AVATAR : LA VOIE DE L’EAU</strong> raconte l'histoire des membres de la famille Sully (Jake, Neytiri et leurs enfants),<br>les épreuves auxquelles ils sont confrontés, les chemins qu’ils doivent emprunter pour se protéger les uns les autres,<br>les batailles qu’ils doivent mener pour rester en vie et les tragédies qu'ils endurent.</p>
-    <div class="casting"></div><h3>Casting</h3>
-    <p>réaliser par :<p>
-    <p>James Cameron</p>
-    <p>Acteurs:</p>
-    <p>tur assumenda commodi,<br> corporis deleniti enim<br> et eum ex expedita<br> explicabo facilis iste molestiae na</p>
+<!---Movie description--->
+<div class="movieDescription">
+    <img class="moviePoster" src ="assets/images/the5Element.jpg" alt="affiche-film-avatar">
+    <div class ="synopsis">
+        <h2>Synopsis</h2>
+        <p>Egypte, 1914. Des extraterrestres récupèrent quatre pierres magiques, symboles des quatre éléments, jadis confiées à des prêtres. Avant de partir, les extraterrestres promettent que dans 300 ans, ils rapporteront les précieux cailloux. Au XXIIIe siècle, alors qu'ils font route vers la Terre, ils sont anéantis par la planète du Mal. Les habitants de ce monde maléfique, les Mangalores, s'emparent des pierres et foncent vers la Terre.</p>
+    </div>
+    <div class="casting">
+        <h2>Casting</h2>
+        <p>réaliser par : <br>Luc Besson</p>
+        <p>Acteurs:<br>Bruce Willis<br>Milla Jovovich<br>Gary Oldman<br>Chris Tucker<br>Ian Holm<br>Luke Perry</p>
+    </div>
 </div>
-</section>
-<!------end of movie description------>
+
+<!----------End of movie description------->
 <h2>Galerie</h2>
 <!---- Start of gallery------>
 <div class="pictureGallery">

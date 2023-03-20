@@ -14,18 +14,19 @@
 include "_includes/navigation.php";
 ?>
 <!---Movie description--->
-<div class="descriptionMovie">
-    <img class="filmPoster" src ="assets/images/Terminator2.jpeg" alt="affiche-film-Terminator 2">
-    <h2>Synopsis</h2>
-    <p class="synopsis">Se déroulant plus d’une décennie après les événements relatés dans le premier film,<br><strong>AVATAR : LA VOIE DE L’EAU</strong> raconte l'histoire des membres de la famille Sully (Jake, Neytiri et leurs enfants),<br>les épreuves auxquelles ils sont confrontés, les chemins qu’ils doivent emprunter pour se protéger les uns les autres,<br>les batailles qu’ils doivent mener pour rester en vie et les tragédies qu'ils endurent.</p>
-    <div class="casting"></div><h3>Casting</h3>
-    <p>réaliser par :<p>
-    <p>James Cameron</p>
-    <p>Acteurs:</p>
-    <p>tur assumenda commodi,<br> corporis deleniti enim<br> et eum ex expedita<br> explicabo facilis iste molestiae na</p>
+<div class="movieDescription">
+    <img class="moviePoster" src ="assets/images/Terminator2.jpeg" alt="affiche-film-Terminator">
+    <div class ="synopsis">
+        <h2>Synopsis</h2>
+        <p>Après l'immense embrasement nucléaire du 29 août 1997, les rares humains survivants, menés par John Connor, luttent sans relâche contre l'armée de robots dirigée par Skynet, un ordinateur surpuissant. Skynet tente d'abord d'éliminer Sarah Connor, la mère de John, grâce à un cyborg projeté en 1984, mais en vain. Il transfère alors dans le passé un deuxième robot, T1000, et l'envoie à l'époque où John Connor n'était encore qu'un enfant.</p>
+    </div>
+    <div class="casting">
+        <h2>Casting</h2>
+        <p>réaliser par : <br>James Cameron</p>
+        <p>Acteurs:<br> Arnold Schwarzenegger<br>Linda Hamilton<br>Edward Furlong<br>Robert Patrick</p>
+    </div>
 </div>
-</section>
-<!------end of movie description------>
+<!----------End of movie description------->
 <h2>Galerie</h2>
 <!---- Start of gallery------>
 <div class="pictureGallery">

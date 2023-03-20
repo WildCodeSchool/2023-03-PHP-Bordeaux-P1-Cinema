@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/2023-03-PHP-Bordeaux-P1-Cinema.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/creedTop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/creedTopMedium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/creedTopSmall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logoDefinitif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javaScript/searchBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cinemaTopSmall.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cinemaTopSmall.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/creed3.php" beforeDir="false" afterPath="$PROJECT_DIR$/creed3.php" afterDir="false" />
     </list>
@@ -40,21 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Wild Code School/PhpstormProjects/projetWildCine",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Wild Code School/PhpstormProjects/projetWildCine&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Wild Code School\PhpstormProjects\projetWildCine" />
@@ -78,6 +91,7 @@
       <workItem from="1678966404125" duration="5885000" />
       <workItem from="1678974687609" duration="15213000" />
       <workItem from="1679046055523" duration="9472000" />
+      <workItem from="1679325519457" duration="915000" />
     </task>
     <servers />
   </component>

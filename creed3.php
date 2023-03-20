@@ -11,6 +11,11 @@
 </head>
 <body>
 <header id="creed3">
+<?php
+include "_includes/navigation.php";
+?>
+<img src ="assets/images/Capture d’écran 2023-03-09 à 19.09.27.png" alt="affiche-film-Creed 3">
+   <button id="youtubeOn" onclick="youtubeButton()">buton</button>
     <?php
         include "_includes/navigation.php";
     ?>
@@ -25,7 +30,6 @@
             <p>
                 Idole de la boxe et entouré de sa famille, Adonis Creed n’a plus rien à prouver. Jusqu’au jour où son ami d’enfance, Damian, prodige de la boxe lui aussi, refait surface. A peine sorti de prison, Damian est prêt à tout pour monter sur le ring et reprendre ses droits. Adonis joue alors sa survie, face à un adversaire déterminé à l’anéantir.
             </p>
-
         </article>
         <h2>Fiche technique</h2>
         <article>
@@ -68,8 +72,6 @@
         </article>
     </section>
 </main>
-
-
 <?php
 include "_includes/footer.php";
 ?>

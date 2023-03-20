@@ -24,7 +24,7 @@
         <div class="casting">
         <h2>Casting</h2>
             <p>réaliser par : <br>James Cameron</p>
-            <p>Acteurs:<br>tur assumenda commodi,<br> corporis deleniti enim<br> et eum ex expedita<br> explicabo facilis iste molestiae na</p>
+            <p>Acteurs:<br>Sam Worthington<br>Zoe Saldana<br>Sigourney Weaver<br>Kate Winslet<br>Stephen Lang</p>
         </div>
 </div>
 
