@@ -8,18 +8,24 @@ p{line-height:1.5}
 /*Header*/
 #about{background: url("../../images/cinemaTopSmall.jpg") no-repeat top center;background-size: cover;}
 #creed3{background: url("../../images/creedTopSmall.jpg") no-repeat top right;background-size: 100%;}
+#avatar2{background: url("../../images/avatarTopSmall.jpg") no-repeat top right;background-size: 100%;}
+#scream6{background: url("../../images/screamTopSmall.jpg") no-repeat top right;background-size: 100%;}
+#monCrime{background: url("../../images/monCrimeTopSmall.jpg") no-repeat top right;background-size: 100%;}
+#the5Element{background: url("../../images/the5ElementTopSmall.jpg") no-repeat top right;background-size: 100%;}
+#pussinboots{background: url("../../images/pussInBootsTopSmall.jpg") no-repeat top right;background-size: 100%;}
+#terminator2{background: url("../../images/terminatorTopSmall.jpg") no-repeat top right;background-size: 100%;}
+#goneWithTheWind{background: url("../../images/GoneWithTheWindTopSmall.jpg") no-repeat top right;background-size: 100%;}
+#matrix{background: url("../../images/matrixTopSmall.jpg") no-repeat top right;background-size: 100%;}
 header{height:30vh;width:100vw;position:relative;}
-.headerGradient { height:50vh;bottom:-36px;
-    background: linear-gradient(0deg, rgba(31,29,30,1) 0%, rgba(31,29,30,0) 100%);
-}
 
-.cinemaStory{display: flex;justify-content: flex-start;margin: -50px 0 24px 3%;}
+
+.cinemaStory{margin: -50px 0 36px 3%;}
 .contactDetails,.contactGallery article{ display: flex;justify-content: center;flex-direction:column;width: 100% ;align-items: center}
 .carte-responsive iframe{width:100%;height:60vh}
 h2{margin :12px 0;width: 100% ;color:var(--logo-color)}
 
 .contactGallery article img{width: 100% ;height: auto; margin-top:12px}
-section >p{color:var(--text-color); width: 50%;z-index: 999}
+section >p{color:var(--text-color); width: 100%;z-index: 999}
 article p{color:var(--text-color);text-align: right}
 article {width: 80% ;}
 article h2{text-align: right}
@@ -34,16 +40,39 @@ article h2{text-align: right}
 
 /*Media queries*/
 @media screen and (min-width: 650px) {
-    #creed3 {background-size: cover;}
+    #home,#about,#creed3,#avatar2,#scream6,#monCrime,#the5Element,#pussinboots,#terminator2,#goneWithTheWind,#matrix {background-size: cover;}
 }
 @media screen and (min-width: 767px) {
     header {height: 50vh; width: 100vw;}
-    #about {background: url("../../images/cinemaTopMedium.jpg") no-repeat top center;}
-    #creed3 {background: url("../../images/creedTopMedium.jpg") no-repeat top right;}
+    #about {background: url("../../images/cinemaTopMedium.jpg") no-repeat top center;background-size: cover;}
+    #creed3 {background: url("../../images/creedTopMedium.jpg") no-repeat top right; background-size: cover;}
+    #home {background:no-repeat top center;}
+    #avatar2{background: url("../../images/avatarTopMedium.jpg") no-repeat top center;}
+    #scream6{background: url("../../images/screamTopMedium.jpg") no-repeat top right;}
+    #monCrime{background: url("../../images/monCrimeTopMedium.jpg") no-repeat top center;}
+    #the5Element{background: url("../../images/the5ElementTopMedium.jpg") no-repeat top center;}
+    #pussinboots{background: url("../../images/pussInBootsTopMedium.jpg") no-repeat top center;}
+    #terminator2{background: url("../../images/terminatorTopMedium.jpg") no-repeat top left;}
+    #goneWithTheWind{background: url("../../images/GoneWithTheWindTopMedium.jpg") no-repeat top right;}
+    #matrix{background: url("../../images/matrixTopMedium.jpg") no-repeat top right;}
+
+
+    section >p{ width: 75%;}
+
 }
 @media screen and (min-width: 968px){
+    #about{background: no-repeat top center ;}
     #about{background: url("../../images/cinemaTop.jpg") no-repeat top center ;}
-    #creed3 {background: url("../../images/creedTop.jpg") no-repeat top right ;}
+    #creed3 {background: url("../../images/creedTop.jpg") no-repeat top center ;}
+    #avatar2{background: url("../../images/avatarTop.jpg") no-repeat top center;}
+    #scream6{background: url("../../images/screamTop.jpg") no-repeat top center;}
+    #monCrime{background: url("../../images/monCrimeTop.jpg") no-repeat top center;}
+    #the5Element{background: url("../../images/the5ElementTop.jpg") no-repeat top center;}
+    #pussinboots{background: url("../../images/pussInBootsTop.jpg") no-repeat top center;}
+    #terminator2{background: url("../../images/terminatorTop.jpg") no-repeat top center;}
+    #goneWithTheWind{background: url("../../images/goneWithTheWindTop.jpg") no-repeat top center ;}
+    #matrix{background: url("../../images/matrixTop.jpg") no-repeat top center;}
+
     header{height:75vh;width:100vw}
     .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
     .contactDetails article:first-child{width: 59% ;}
@@ -57,17 +86,18 @@ article h2{text-align: right}
 @media screen and (min-width: 1200px) {
     #about {background: url("../../images/cinemaTop.jpg") no-repeat top center;}
     #creed3 {background: url("../../images/creedTop.jpg") no-repeat top right;background-size: cover;}
-    header {height: 80vh;width: 100vw;}
+    header {height: 90vh;width: 100vw;}
 
 }
 
-/*Creed 3*/
-#creed3{position:relative;}
+/*films*/
+
 header iframe{margin:auto; }
 #youtubeOn{position : absolute;top: 150px; width: 70px; height :40px; left: 50%;margin-left:-35px;background: url("../../images/youtube.png") no-repeat top center; }
 #youtube{width:80%;height:250px;position: relative;}
 #youtubeClose{position : absolute;top: 5px; width: 70px; height :40px; left: 85%;padding-top:8px;background: url("../../images/close.png") no-repeat top center; }
 #youtubeClose span{margin-left:-20px;padding-top:8px; color: var(--logo-color)}
+
 
 @media screen and (min-width:764px) {
     #youtube{width:80%;height:300px;top:100px}
@@ -79,3 +109,12 @@ header iframe{margin:auto; }
     #youtubeOn{position : absolute;top: 370px;}
     #youtubeClose{left:90%}
 }
+@media screen and (min-width: 1200px){
+
+    #youtubeClose{left:78%}
+}
+/*Conditions*/
+main,.movieDescription{width:80%; line-height:1.5;margin: 0 auto}
+h4{margin:10px;color: var(--text-color)}
+h3{margin:10px;color: var(--text-color)}
+.conditions p{ width: 100%;}
