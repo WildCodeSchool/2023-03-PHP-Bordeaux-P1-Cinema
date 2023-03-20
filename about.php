@@ -18,10 +18,13 @@
         include "_includes/navigation.php";
         ?>
     </header>
-<main>
+    <!--Début de la page About-->
     <main>
+        <!--Début du texte de présentation-->
         <section class ="cinemaStory">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium alias aperiam consequuntur corporis excepturi expedita id inventore itaque libero nobis nulla odit officiis sapiente sed sequi vel, veniam voluptates?</p>
+            <p>Le Wild Cinéma est né grâce à un homme, un grand amoureux des grands films : Jean Wild. Le petit Jean a vu le jour dans une petite ville nommée Bordeaux, et a baigné dans la culture cinématographique grâce à son grand-père.</p>
+            <p>Trois ans avant l'ouverture du cinéma, en 1903, Jean Wild était devenu un grand homme, il décida de retrouver le lieu exact de sa naissance pour ériger un édifice à sa mesure. Après de nombreuses recherches c'est ici au ... que cet édifice est né.</p>
+            <p>Grâce à quels députés corrompus, Jean obtient le permis de construire.Le cinéma est monté petit à petit, pierre par pierre. Mais après quelques ouvriers morts d'épuisement et des fusiades de part et d'autre, Jean Wild est fier de vous accueillir dans son magnifique cinéma !</p>
         </section>
 
         <section class="contactDetails">
@@ -55,7 +58,7 @@
             <?php  $halls = [
                 "royalRoom"=>"La salle royal de The Wild Cinema",
                 "blueRoom"=>"La salle bleu de The Wild Cinema",
-                "theHall "=>"Le hall d'entrée de The Wild Cinema"];
+                "theHall"=>"Le hall d'entrée de The Wild Cinema"];
             foreach ($halls as $key=>$alt) : ?>
                 <img src="../../assets/images/<?= $key; ?>.jpg" alt="<?= $alt; ?>">
 
