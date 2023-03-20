@@ -2,42 +2,56 @@
 
 ?>
 
-<html>
-<!-- VERSION DESKTOP : FLECHE - choisir : &#9650 flèche noire ou &#9651 flèche blanche - et copyright ;
-en CSS flèche en haut et copyright en bas tous les deux centrés avec infos réglementaires sur la droite et boutons -->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet"> 
 
-<p>&#9650</p>
-<p>&#9651</p>
-<p>&copy</p>
+    <title>FOOTER</title>
+</head>
 
-<!--Version MOBILE page HOME (index.php): en ligne en bas.
-Version MOBILE page FILMS (ex. : terminator.php): 
-Version DESKTOP : n'apparaît pas-->
-<br>
-<!--A CORRIGER : correspond à la NAVBAR, ne concerne pas le FOOTER-->
-<ul class="links">
-    <li><img src="#" alt="Haut de la page"></li>
-    <li><img src="#" alt="Films"></li>
-    <li><img src="#" alt="Logo"></li>
-    <li><img src="#" alt="Tickets"></li>
-    <li><img src="#" alt="Contact"></li>
-</ul>
+    </body>
+       
+                <!-- DESKTOP page INDEX : sous PROMO ; MOBILE pages INDEX & FILMS : entre PROMO et NAVBAR ; MOBILE page CONTACT : au dessus de NAVBAR-->
+        <footer>
+                       
+                <!-- DESKTOP : flèche (en haut centrée) ; MOBILE : absence-->
+            <div> <!-- Mettre ID ancre dans "navigation.php" retour en HAUT de la page-->
+                <p class="arrowFooter"><a href="#nomIDDansNavigation.php">&#9650</a></p>
+            </div>
 
-<!-- Version DESKTOP: ces infos sont sur la gauche
-Version MOBILE page FILMS : apparaît au-dessus de la
- NAVBAR et en-dessous PROMO-->
-<ul class="regulations">
-    <li>&copy The Wild Cinema</li>
-    <li><a href="#">CGU</a></li>
-    <li><a href="#">CHARTE</a></li>
-    <li><a href="#">POLITIQUE</a></li>
-</ul>
+            <div class="footer">
+                <!-- DESKTOP * pages : à droite ; MOBILE pages INDEX & FILMS : en ligne centré ; MOBILE page CONTACT : en colonne centré -->
+                <div class="regulations">
+                    <ul>
+                        <li class="regulationsOne"><a href="#">CGU</a></li>
+                        <li class="regulationsTwo"><a href="#">CHARTE</a></li>
+                        <li class="regulationsThree"><a href="#">POLITIQUE</a></li>
+                    </ul>
+                </div>
 
-<!-- Version DESKTOP: ces infos sont sur la droite-->
-<ul>
-    <li><img src="#" alt="Facebook"></li>
-    <li><img src="#" alt="Twitter"></li>
-    <li><img src="#" alt="Instagram"></li>
-</ul>
+                <!-- DESKTOP: à gauche ; MOBILE : absence-->
+                <div class="socialNetworks">
+                    <ul>
+                        <li><a href="#"><img src="#" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="#" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="#" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+                <!-- DESKTOP : copyright (en bas centré) ; MOBILE page CONTACT : centré entre .regulations et NAVBAR-->
+                
+            <div>
+                <p class="copyrightFooter">&copy The Wild Cinema</p>
+            </div>
+        <script src="assets/js/script.js"></script>
+        </footer>
+    </body>
 </html>
+
 

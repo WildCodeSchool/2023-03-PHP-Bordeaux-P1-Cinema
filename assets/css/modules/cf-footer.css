@@ -1,3 +1,133 @@
-.links {
-    text-decoration: none;
+* {
+  box-sizing:content-box;
+  border-width: 100%;
+  padding: 0;
+  margin: 0;
 }
+     
+body {
+  background-color:var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+    
+a {
+  color:var(--link-color);
+  text-decoration: none;
+}
+
+footer {
+  background-color: var(--background-colour);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+a li {
+  color:var(--link-color);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+    /*DESKTOP : flèche (en haut centrée) ; MOBILE : absence ;
+    DESKTOP : copyright (en bas centré) ; MOBILE page CONTACT : centré entre .regulations et NAVBAR-->
+    CSS : flèche et copyright centrés*/
+.arrowFooter {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 3.5em;
+}
+
+.copyrightFooter {
+  display: flex;
+  justify-content: center;
+  color:var(--link-color);
+  padding-bottom: 15px;
+  font-size: 1.5em;
+}
+  
+  /*DESKTOP : en colonne sur la gauche*/
+  /*MOBILE page FILMS : au-dessus de la NAVBAR et en-dessous PROMO*/
+.regulations {
+  height: 4vh;
+  width: 100%;
+  margin-left: 10%;  
+  margin-right: -30%;  
+}
+    
+.regulationsOne, .regulationsTwo, .regulationsThree, {
+  padding-top: 30px;
+  margin: 20px;
+}
+
+
+  /*DESKTOP : en colonne sur la droite*/
+.socialNetworks {
+  height: 10vh;
+  width: 50%;
+  margin-right: -15%;
+}
+
+/*RESPONSIVE*/
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 170px;
+  }
+
+  .regulations ul {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+  }
+  
+  /*DESKTOP .socialNetworks: en colonne sur la droite*/
+  .socialNetworks ul {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+    width: 40%;
+  }
+
+  .socialNetworks ul li {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .arrowFooter, .copyrightFooter {
+    display: none;
+    
+  } 
+
+  .socialNetworks {
+    display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .regulations {
+    font-size: 0.8em;
+    text-decoration: none;
+  }
+
+  .regulationsOne, .regulationsTwo, .regulationsThree {
+    border: solid 1px grey;
+    padding: 3px 20px;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+}
+
