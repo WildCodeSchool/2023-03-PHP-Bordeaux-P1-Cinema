@@ -1,22 +1,38 @@
 :root {
     --background-color: #1f1d1e;
+/*font family -- bouton à part*/
+    --main-font: "#";    
+    --title-font: "#";
+    --text-font: "#";
+    --nav-font:"#";
+    --footer-font:"#";
+/*text & link color*/
+    --title-color: white;
     --text-color: white;
+    --text-color-navbar: white;
     --text-color-footer: white;
     --link-color: white;
     --link-color-hover: #71152cc7;
-    --logo-color: #e51937;
-    --title-font: "#";
-    --body-text: "#";
+/*graisse du texte*/
+    --text-weight: "#";
+    --text-weight-navbar: "#";
+    --text-weight-footer: "#";
+    --link-weight: "#";
+    --link-weight-hover: "#";
+/*taille du texte*/
     --body-text-sizing: "#";
     --title-text-sizing: 24px;
     --nav-text-sizing: "#";
     --footer-text-sizing: "#";
+/*logo couleur*/
+    --logo-color: #e51937;
+/*bouton*/
     --button-border: "#";
     --button-background-color: "#";
     --button-background-color-hover: ???"#"?;
     --button-text-font: "#";
     --button-text-size: "#";
     --button-hover: "#";
-
+/*espacement*/
     --spacing: 8px;
 }
