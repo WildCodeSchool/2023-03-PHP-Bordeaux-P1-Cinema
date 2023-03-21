@@ -13,10 +13,8 @@
 </head>
 
 <body>
-
+<section class="slider">
   <div class="container">
-
-
     <input type="radio" name="slider" class="d-none" id="s1" checked>
     <input type="radio" name="slider" class="d-none" id="s2">
     <input type="radio" name="slider" class="d-none" id="s3">
@@ -154,7 +152,7 @@
     </div>
 
   </div>
-
+</section>
 </body>
 
 </html>

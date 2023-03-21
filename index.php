@@ -23,6 +23,12 @@ include "_includes/navigation.php";
 ?>
 </header>
 <main>
+    <!-----------SLIDE--------->
+    <?php
+    include "_includes/slide.php";
+    ?>
+    <!----------- END OF SLIDE--------->
+
     <!---------------Classic Movie----------->
     <section class="oldMovieGallery">
         <h2>Nos classiques</h2>
@@ -39,12 +45,6 @@ include "_includes/navigation.php";
         </article>
         <!---------------End of Classic Movie----------->
     </section>
-    <!-----------SLIDE--------->
-    <?php
-    include "_includes/slide.php";
-    ?>
-    <!----------- END OF SLIDE--------->
-
     <img class="promotion" src="assets/images/pop-corn.jpeg">
 </main>
 
