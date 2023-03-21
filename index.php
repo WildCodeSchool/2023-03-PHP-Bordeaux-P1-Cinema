@@ -1,24 +1,10 @@
 <?php include "_includes/navigation.php" ?>
 <?php $listMovies= []; ?>
     <!-----------SLIDE--------->
-    <?php include "_includes/slide.php"; ?>
+<?php include "_includes/slide.php"; ?>
     <!----------- END OF SLIDE--------->
 
-git status<header id="home">
-    <?php
-    include "_includes/navigation.php";
-    ?>
-</header>
-
-<body>
-<?php
-$listMovies= []
-?>
-
-<main>
-=======
     <!---------------Classic Movie----------->
->>>>>>> 7718865170125dd7ed2be703480536100e761afd
     <section class="oldMovieGallery">
         <h2>Nos classiques</h2>
         <article>
