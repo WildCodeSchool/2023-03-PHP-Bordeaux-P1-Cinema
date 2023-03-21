@@ -18,56 +18,53 @@
     <iframe id="youtube" src="https://www.youtube.com/embed/D_avHhjjmtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
 </header>
-<main>
-    <section>
-        <h2>SYNOPSIS</h2>
-        <article>
-            <p>
-                Idole de la boxe et entouré de sa famille, Adonis Creed n’a plus rien à prouver. Jusqu’au jour où son ami d’enfance, Damian, prodige de la boxe lui aussi, refait surface. A peine sorti de prison, Damian est prêt à tout pour monter sur le ring et reprendre ses droits. Adonis joue alors sa survie, face à un adversaire déterminé à l’anéantir.
-            </p>
+<!---Movie description--->
+<div class="movieDescription">
+    <img class="moviePoster" src ="assets/images/s-l1600.jpg" alt="affiche-film-avatar">
 
-        </article>
-        <h2>Fiche technique</h2>
-        <article>
-            <p> 1 mars 2023 en salle / 1h 57min / Drame</p>
-            <p>De Michael B. Jordan</p>
-            <p>Par Zach Baylin, Keenan Coogler</p>
-            <p>Avec Michael B. Jordan, Tessa Thompson, Jonathan Majors</p>
-        </article>
+    <div class ="synopsis">
+        <h2>Synopsis</h2>
 
-    </section>
-    <section>
-        <h2>SYNOPSIS</h2>
-        <article>
-            <p>
-                Idole de la boxe et entouré de sa famille, Adonis Creed n’a plus rien à prouver. Jusqu’au jour où son ami d’enfance, Damian, prodige de la boxe lui aussi, refait surface. A peine sorti de prison, Damian est prêt à tout pour monter sur le ring et reprendre ses droits. Adonis joue alors sa survie, face à un adversaire déterminé à l’anéantir.
-            </p>
+        <p>Idole de la boxe et entouré de sa famille, Adonis Creed n’a plus rien à prouver. Jusqu’au jour où son ami d’enfance, Damian, prodige de la boxe lui aussi, refait surface.</p>
+        <p>A peine sorti de prison, Damian est prêt à tout pour monter sur le ring et reprendre ses droits. Adonis joue alors sa survie, face à un adversaire déterminé à l’anéantir.
+        </p>
+    </div>
+    <div class="casting">
+        <h2>Casting</h2>
+        <p> 1 mars 2023 en salle / 1h 57min / Drame</p>
+        <p>De Michael B. Jordan</p>
+        <p>Par Zach Baylin, Keenan Coogler</p>
+        <p>Avec Michael B. Jordan, Tessa Thompson, Jonathan Majors</p>
+    </div>
+</div>
 
-        </article>
-        <h2>Fiche technique</h2>
-        <article>
-            <p> 1 mars 2023 en salle / 1h 57min / Drame</p>
-            <p>De Michael B. Jordan</p>
-            <p>Par Zach Baylin, Keenan Coogler</p>
-            <p>Avec Michael B. Jordan, Tessa Thompson, Jonathan Majors</p>
-        </article>
+<!----------End of movie description------->
+<h2>Galerie</h2>
+<!---- Start of gallery------>
+<div class="pictureGallery">
 
-    </section>
-    <section class="movieGallery">
-        <h2>Galerie</h2>
-        <article>
-            <?php  $pictures = [
-                "creedcoachingSmall"=>"Creed en plein entrainement",
-                "creedRedSmall"=>"creed dans un halo rouge",
-                "creedbeforeMatchSmall"=>"Creed avant le combat",
-                "creedMatchSmall"=>"Creed en plein combat"];
-            foreach ($pictures as $key=>$alt) : ?>
-                <img src="../../assets/images/<?= $key; ?>.jpg" alt="<?= $alt; ?>">
+    <?php  $pictures = [
+        "creedcoachingSmall"=>"Creed en plein entrainement",
+        "creedRedSmall"=>"creed dans un halo rouge",
+        "creedbeforeMatchSmall"=>"Creed avant le combat",
+        "creedMatchSmall"=>"Creed en plein combat",
+        "creedMatchSmall"=>"Creed en plein combat",
+        "creedMatchSmall"=>"Creed en plein combat"];
+    foreach ($pictures as $key=>$alt) : ?>
+        <img src="../../assets/images/<?= $key; ?>.jpg" alt="<?= $alt; ?>">
 
-            <?php endforeach; ?>
-        </article>
-    </section>
-</main>
+    <?php endforeach; ?>
+</div>
+<!------- End of gallery------->
+
+
+
+
+
+
+
+
+
 
 
 <?php

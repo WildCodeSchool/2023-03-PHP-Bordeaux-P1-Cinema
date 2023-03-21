@@ -8,7 +8,7 @@ p{line-height:1.5}
 /*Header*/
 #about{background: url("../../images/cinemaTopSmall.jpg") no-repeat top center;background-size: cover;}
 #creed3{background: url("../../images/creedTopSmall.jpg") no-repeat top right;background-size: 100%;}
-#avatar2{background: url("../../images/avatarTopSmall.jpg") no-repeat top right;background-size: 100%;}
+#avatar{background: url("../../images/avatarTopSmall.jpg") no-repeat top right;background-size: 100%;}
 #scream6{background: url("../../images/screamTopSmall.jpg") no-repeat top right;background-size: 100%;}
 #monCrime{background: url("../../images/monCrimeTopSmall.jpg") no-repeat top right;background-size: 100%;}
 #the5Element{background: url("../../images/the5ElementTopSmall.jpg") no-repeat top right;background-size: 100%;}
@@ -40,14 +40,14 @@ article h2{text-align: right}
 
 /*Media queries*/
 @media screen and (min-width: 650px) {
-    #home,#about,#creed3,#avatar2,#scream6,#monCrime,#the5Element,#pussinboots,#terminator2,#goneWithTheWind,#matrix {background-size: cover;}
+    #home,#about,#creed3,#avatar,#scream6,#monCrime,#the5Element,#pussinboots,#terminator2,#goneWithTheWind,#matrix {background-size: cover;}
 }
 @media screen and (min-width: 767px) {
     header {height: 50vh; width: 100vw;}
     #about {background: url("../../images/cinemaTopMedium.jpg") no-repeat top center;background-size: cover;}
     #creed3 {background: url("../../images/creedTopMedium.jpg") no-repeat top right; background-size: cover;}
     #home {background:no-repeat top center;}
-    #avatar2{background: url("../../images/avatarTopMedium.jpg") no-repeat top center;}
+    #avatar{background: url("../../images/avatarTopMedium.jpg") no-repeat top center;}
     #scream6{background: url("../../images/screamTopMedium.jpg") no-repeat top right;}
     #monCrime{background: url("../../images/monCrimeTopMedium.jpg") no-repeat top center;}
     #the5Element{background: url("../../images/the5ElementTopMedium.jpg") no-repeat top center;}
@@ -64,7 +64,7 @@ article h2{text-align: right}
     #about{background: no-repeat top center ;}
     #about{background: url("../../images/cinemaTop.jpg") no-repeat top center ;}
     #creed3 {background: url("../../images/creedTop.jpg") no-repeat top center ;}
-    #avatar2{background: url("../../images/avatarTop.jpg") no-repeat top center;}
+    #avatar{background: url("../../images/avatarTop.jpg") no-repeat top center;}
     #scream6{background: url("../../images/screamTop.jpg") no-repeat top center;}
     #monCrime{background: url("../../images/monCrimeTop.jpg") no-repeat top center;}
     #the5Element{background: url("../../images/the5ElementTop.jpg") no-repeat top center;}

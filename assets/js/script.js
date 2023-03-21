@@ -29,10 +29,11 @@ let homeBackground= document.getElementById("home");
 let rand = homeRandow[Math.floor(Math.random()*homeRandow.length)];
 
 if(window.matchMedia("(min-width: 1200px)").matches){
-    homeBackground.style.backgroundImage="url('"+ rand + ".jpg')";
+    homeBackground.style.backgroundImage="url('" + rand + ".jpg')";
 } else if(window.matchMedia("(min-width: 767px)").matches){
     homeBackground.style.backgroundImage="url('" + rand + "Medium.jpg')";
 }
 else if (window.matchMedia("(min-width: 10px)").matches) {
+
     homeBackground.style.backgroundImage="url('" + rand + "Small.jpg')";
 }
