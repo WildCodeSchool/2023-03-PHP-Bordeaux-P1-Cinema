@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -16,17 +12,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     
-<title>FOOTER</title>
+    <title>FOOTER</title>
 </head>
-
-    </body>
-       
+           
                 <!-- DESKTOP page INDEX : sous PROMO ; MOBILE pages INDEX & FILMS : entre PROMO et NAVBAR ; MOBILE page CONTACT : au dessus de NAVBAR-->
         <footer>
                        
                 <!-- DESKTOP : flèche (en haut centrée) ; MOBILE : absence-->
             <div> <!-- Mettre ID ancre dans "navigation.php" retour en HAUT de la page-->
-                <p class="arrowFooter"><a href="#nomIDDansNavigation.php">&#9650</a></p>
+                <p class="arrowFooter"><a href="#choisirIDPourAncrage">&#9650</a></p>
             </div>
 
             <div class="footer">
@@ -53,9 +47,9 @@
             <div>
                 <p class="copyrightFooter">&copy The Wild Cinema</p>
             </div>
-        <script src="assets/js/script.js"></script>
+        
         </footer>
-    </body>
+    
 </html>
 
 
