@@ -10,9 +10,17 @@
     <title>Wild Cinema - Autant en emporte le vent</title>
 </head>
 <body>
-<?php
-include "_includes/navigation.php";
-?>
+<!---------- HEADER WITH BUTTON -------->
+<header id="goneWithTheWind">
+    <?php
+    include "_includes/navigation.php";
+    ?>
+    <div id="youtubeOn" onclick="youtubeButton()"></div>
+    <iframe id="youtube" src="https://www.youtube.com/embed/NOSSC-7LTdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
+</header>
+<!----------END OF HEADER-------->
+
 <!---Movie description--->
 <div class="movieDescription">
     <img class="filmPoster" src ="assets/images/Autant en emporte le vent_0002.jpg" alt="affiche-film-autant en emporte le vent">
@@ -21,10 +29,10 @@ include "_includes/navigation.php";
     <p>En Georgie, en 1861, Scarlett O'Hara est une jeune femme fière et volontaire de la haute société sudiste.<br> Courtisée par tous les bons partis du pays, elle n'a d'yeux que pour Ashley Wilkes malgré ses fiançailles avec sa douce et timide cousine, Melanie Hamilton.<br> Scarlett est pourtant bien décidée à le faire changer d'avis,mais à la réception des Douze Chênes c'est du cynique Rhett Butler qu'elle retient l'attention...</p>
     </div>
     <div class="casting">
-    <h2>Casting</h2>
-    <p>Réaliser par :<br>Victor Fleming</p>
-    <p>Acteurs:<br>
-        Vivien Leigh<br>Clark Gable<br>Olivia de Havilland<br>Hattie McDaniel</p>
+        <h2>Casting</h2>
+        <p>20 mai 1950 en salle / 3h 42min / Drame</p>
+        <p>De Victor Fleming</p>
+        <p>Avec Vivien Leigh, Clark Gable, Olivia de Havilland, Hattie McDaniel</p>
     </div>
 </div>
 <!----------End of movie description------->

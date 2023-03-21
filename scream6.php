@@ -10,9 +10,16 @@
     <title>Wild Cinema - scream 6</title>
 </head>
 <body>
-<?php
-include "_includes/navigation.php";
-?>
+<!---------- HEADER WITH BUTTON -------->
+<header id="scream6">
+    <?php
+    include "_includes/navigation.php";
+    ?>
+    <div id="youtubeOn" onclick="youtubeButton()"></div>
+    <iframe  id="youtube" src="https://www.youtube.com/embed/QCbLIEE0WoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
+</header>
+<!----------END OF HEADER-------->
 <!---Movie description--->
 <div class="movieDescription">
     <img class="moviePoster" src ="assets/images/scream6.jpeg" alt="affiche-film-Scream 6">
@@ -22,8 +29,9 @@ include "_includes/navigation.php";
     </div>
     <div class="casting">
         <h2>Casting</h2>
-        <p>réaliser par : <br>Matt Bettinelli-Olpin</p>
-        <p>Acteurs:<br>Jenna Ortega<br>Melissa Barrera<br>Hayden Panettiere<br>Samara Weaving<br>Jack Champion</p>
+        <p>14 février 2022 en salle / 1h 42min / Horreur</p>
+        <p>De Matt Bettinelli-Olpin</p>
+        <p>Avec Jenna Ortega , Melissa Barrera, Hayden Panettiere, Samara Weaving, Jack Champion</p>
     </div>
 </div>
 <!----------End of movie description------->
