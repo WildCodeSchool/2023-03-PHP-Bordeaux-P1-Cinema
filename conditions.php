@@ -1,23 +1,5 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <style>
-
-
-
-    </style>
-    <title>Wild Cinema - Conditions Générales</title>
-</head>
-<body>
-
-<?php
-include "_includes/navigation.php";
-?>
+<?php include "_includes/navigation.php" ?>
+<?php $listMovies= []; ?>
 <!--Début des conditions-->
 <main class="conditions">
     <!--Début des mentions légales-->
@@ -108,15 +90,6 @@ include "_includes/navigation.php";
     <!--fin des Conditions Générales-->
 </main>
 <!--fin des conditions-->
-
-
-
-
-
-
 <?php
 include "_includes/footer.php";
 ?>
-
-</body>
-</html>

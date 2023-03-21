@@ -94,7 +94,7 @@ article h2{text-align: right}
 
 header iframe{margin:auto; }
 #youtubeOn{position : absolute;top: 150px; width: 70px; height :40px; left: 50%;margin-left:-35px;background: url("../../images/youtube.png") no-repeat top center; }
-#youtube{width:80%;height:250px;position: relative;}
+#youtube{width:80%;height:250px;position:relative;}
 #youtubeClose{position : absolute;top: 5px; width: 70px; height :40px; left: 85%;padding-top:8px;background: url("../../images/close.png") no-repeat top center; }
 #youtubeClose span{margin-left:-20px;padding-top:8px; color: var(--logo-color)}
 
