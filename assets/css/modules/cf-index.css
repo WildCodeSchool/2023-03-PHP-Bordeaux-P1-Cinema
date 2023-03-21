@@ -26,6 +26,7 @@ article h2{text-align: right}
 
 
 
+
 @media screen and (min-width: 767px){
     #home{background: url("../../images/cinemaTopMedium.jpg") no-repeat top center ;background-size: cover;height:50vh;width:100vw}
 

@@ -18,9 +18,7 @@ $listMovies= []
 include "_includes/navigation.php";
 ?>
 </header>
-<?php
-include "_includes/slide.php";
-?>
+
 
 <main>
     <!---------------Classic Movie----------->
@@ -39,12 +37,18 @@ include "_includes/slide.php";
         </article>
         <!---------------End of Classic Movie----------->
     </section>
+
     <img class="promotion" src="assets/images/pop-corn.jpeg">
+
+    <?php
+    include "_includes/slide.php";
+    ?>
+
 </main>
 
 <?php
 include "_includes/footer.php";
 ?>
-
+<script src="script.js"></script>
 </body>
 </html>
