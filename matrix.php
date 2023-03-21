@@ -10,9 +10,16 @@
     <title>Wild Cinema - Matrix</title>
 </head>
 <body>
-<?php
-include "_includes/navigation.php";
-?>
+<!---------- HEADER WITH BUTTON -------->
+<header id="matrix">
+    <?php
+    include "_includes/navigation.php";
+    ?>
+    <div id="youtubeOn" onclick="youtubeButton()"></div>
+    <iframe id="youtube" src="https://www.youtube.com/embed/8xx91zoASLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
+</header>
+<!----------END OF HEADER-------->
 <div class="movieDescription">
     <img class="moviePoster" src ="assets/images/043449_af.jpg" alt="affiche-film-Matrix">
     <div class ="synopsis">
@@ -21,8 +28,9 @@ include "_includes/navigation.php";
     </div>
     <div class="casting">
         <h2>Casting</h2>
-        <p>réaliser par : <br>Lana Wachowski & Lilly Wachowski</p>
-        <p>Acteurs:<br>Keanu Reeves<br>Carrie-Anne Moss<br>Hugo Weaving<br>Laurence Fishburne</p>
+        <p>23 juin 1999 en salle / 2h 16min / Science fiction</p>
+        <p>De Lana Wachowski & Lilly Wachowski</p>
+        <p>Avec Keanu Reeves,Carrie-Anne Moss, Hugo Weaving, Laurence Fishburne</p>
     </div>
 </div>
 

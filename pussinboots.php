@@ -10,9 +10,16 @@
     <title>Wild Cinema - Le Chat Potté 2</title>
 </head>
 <body>
-<?php
-include "_includes/navigation.php";
-?>
+<!---------- HEADER WITH BUTTON -------->
+<header id="pussinboots">
+    <?php
+    include "_includes/navigation.php";
+    ?>
+    <div id="youtubeOn" onclick="youtubeButton()"></div>
+    <iframe id="youtube" src="https://www.youtube.com/embed/7NycjpBa438" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
+</header>
+<!----------END OF HEADER-------->
 <!---Movie description--->
 <div class="movieDescription">
     <img class="moviePoster" src ="assets/images/Capture d’écran 2023-03-15 à 20.37.14.jpeg" alt="affiche-film-Chat potté 2">
@@ -22,8 +29,9 @@ include "_includes/navigation.php";
     </div>
     <div class="casting">
         <h2>Casting</h2>
-        <p>réaliser par : <br>Joel Crawford</p>
-        <p>Acteurs:<br>Antonio Banderas <br>Salma Hayek<br>Florence Pugh<br>Harvey Guillén<br>Olivia Colman</p>
+        <p>7 décembre 2022 en salle / 1h 42min / Film animation</p>
+        <p>De Joel Crawford</p>
+        <p>Avec Antonio Banderas , Salma Hayek, Florence Pugh, Harvey Guillén, Olivia Colman</p>
     </div>
 </div>
 <!----------End of movie description------->

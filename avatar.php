@@ -9,11 +9,16 @@
     <title>Wild Cinema - Avatar</title>
 </head>
 <body>
-<header id="avatar">
+<!---------- HEADER WITH BUTTON -------->
+<header id="avatar2">
     <?php
     include "_includes/navigation.php";
     ?>
+    <div id="youtubeOn" onclick="youtubeButton()"></div>
+    <iframe  id="youtube" src="https://www.youtube.com/embed/598NnroP42s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
 </header>
+<!----------END OF HEADER-------->
 <!---Movie description--->
 <div class="movieDescription">
     <img class="moviePoster" src ="assets/images/s-l1600.jpg" alt="affiche-film-avatar">
@@ -21,11 +26,12 @@
         <h2>Synopsis</h2>
         <p>Se déroulant plus d’une décennie après les événements relatés dans le premier film,<br><strong>AVATAR : LA VOIE DE L’EAU</strong> raconte l'histoire des membres de la famille Sully (Jake, Neytiri et leurs enfants),<br>les épreuves auxquelles ils sont confrontés, les chemins qu’ils doivent emprunter pour se protéger les uns les autres,<br>les batailles qu’ils doivent mener pour rester en vie et les tragédies qu'ils endurent.</p>
     </div>
-        <div class="casting">
+    <div class="casting">
         <h2>Casting</h2>
-            <p>réaliser par : <br>James Cameron</p>
-            <p>Acteurs:<br>Sam Worthington<br>Zoe Saldana<br>Sigourney Weaver<br>Kate Winslet<br>Stephen Lang</p>
-        </div>
+        <p>14 décembre 2022 en salle / 3h 12min / Science fiction</p>
+        <p>De James Cameron</p>
+        <p>Avec Sam Worthington, Zoe Saldana, Sigourney Weaver, Kate Winslet, Stephen Lang </p>
+    </div>
 </div>
 
 <!----------End of movie description------->
