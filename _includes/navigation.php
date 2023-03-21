@@ -1,23 +1,22 @@
-<!-- Barre de Navigation -->
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="assets/css/modules/cf-navigation.css">
+    <link rel="stylesheet" href="../assets/css/modules/cf-navigation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 </head>
-<body>
-<nav class="navbar">
+
+<nav class="navbar"> <!-- Barre de Navigation -->
     <div class="logo">
-        <img src="assets/images/logoDefinitif.png" alt="Logo">
+        <img src="../assets/images/logoDefinitif.png" alt="Logo">
     </div>
     <div class="search">
         <form>
-            <input type="text" id="search-box" placeholder="Rechercher...">
-            <button type="submit" id="search-btn">OK</button>
-            <script src="assets/javaScript/searchBox.js"></script>
+            <input class= "searchInput" type="text" id="search-box" placeholder="Rechercher...">
+            <button type="submit" onclick="return search; id="search-btn">OK</button>
+            <script src="../assets/javaScript/searchBox.js"></script>
         </form>
         <ul class="results">
             <!-- Résultats de la recherche seront ajoutés dynamiquement ici -->
@@ -32,9 +31,6 @@
             <li><a href="about.php">Contacts</a></li>
         </ul>
     </div>
-</nav>
-</body>
-<!--Fin de Barre de Navigation-->
+</nav><!--Fin de Barre de Navigation-->
+<header>
 
-
-<!--Placement du header ici -->

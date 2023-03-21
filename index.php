@@ -9,16 +9,17 @@
 
     <title>Index</title>
 </head>
+
+<header id="home">
+    <?php
+    include "_includes/navigation.php";
+    ?>
+</header>
+
 <body>
 <?php
 $listMovies= []
 ?>
-<header id="home">
-<?php
-include "_includes/navigation.php";
-?>
-</header>
-
 
 <main>
     <section class="oldMovieGallery">
