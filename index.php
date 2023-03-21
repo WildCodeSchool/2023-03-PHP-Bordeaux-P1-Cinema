@@ -42,6 +42,6 @@ include "_includes/slide.php";
 <?php
 include "_includes/footer.php";
 ?>
-
+<script src="script.js"></script>
 </body>
 </html>
