@@ -23,8 +23,9 @@ include "_includes/slide.php";
 ?>
 
 <main>
+    <!---------------Classic Movie----------->
     <section class="oldMovieGallery">
-        <h2>Nos salles</h2>
+        <h2>Nos classiques</h2>
         <article>
             <?php  $OldMovies = [
                 "matrix.jpg"=>"Affiche du film Matrix",
@@ -36,6 +37,7 @@ include "_includes/slide.php";
 
             <?php endforeach; ?>
         </article>
+        <!---------------End of Classic Movie----------->
     </section>
 </main>
 
