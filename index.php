@@ -18,9 +18,7 @@ $listMovies= []
 include "_includes/navigation.php";
 ?>
 </header>
-<?php
-include "_includes/slide.php";
-?>
+
 
 <main>
     <section class="oldMovieGallery">
@@ -37,6 +35,9 @@ include "_includes/slide.php";
             <?php endforeach; ?>
         </article>
     </section>
+    <?php
+    include "_includes/slide.php";
+    ?>
 </main>
 
 <?php
