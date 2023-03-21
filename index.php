@@ -39,6 +39,7 @@ include "_includes/slide.php";
         </article>
         <!---------------End of Classic Movie----------->
     </section>
+    <img class="promotion" src="assets/images/pop-corn.jpeg">
 </main>
 
 <?php
