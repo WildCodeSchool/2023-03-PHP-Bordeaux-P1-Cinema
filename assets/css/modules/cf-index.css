@@ -49,3 +49,6 @@ article h2{text-align: right}
         width: 100vw
     }
 }
+.promotion {
+    max-height: 500px;
+}
