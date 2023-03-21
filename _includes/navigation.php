@@ -25,11 +25,11 @@
     </div>
     <div class="links">
         <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Films</a></li>
-            <img src="assets/images/logoDefinitif.png" alt="Logo" class="logo2">
-            <li><a href="#">Horaires</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="movies.php">Films</a></li>
+            <img src="assets/images/logoDefinitif.png" alt="Logo" class="logo2" href="index.php">
+            <li><a href="schedule.php">Horaires</a></li>
+            <li><a href="about.php">Contacts</a></li>
         </ul>
     </div>
 </nav>
