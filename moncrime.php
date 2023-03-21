@@ -10,11 +10,18 @@
     <title>Wild Cinema - Avatar</title>
 </head>
 <body>
-<header id="avatar">
-<?php
-include "_includes/navigation.php";
-?>
+<!---------- HEADER WITH BUTTON -------->
+<header id="monCrime">
+    <?php
+    include "_includes/navigation.php";
+    ?>
+    <div id="youtubeOn" onclick="youtubeButton()"></div>
+    <iframe  id="youtube" src="https://www.youtube.com/embed/PaNkAPIUvpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
 </header>
+<!----------END OF HEADER-------->
+
 <!---Movie description--->
 <div class="movieDescription">
     <img class="moviePoster" src ="assets/images/Mon_Crime.jpg" alt="affiche-film-Mon Crime">
@@ -24,8 +31,9 @@ include "_includes/navigation.php";
     </div>
     <div class="casting">
         <h2>Casting</h2>
-        <p>réaliser par : <br>François Ozon</p>
-        <p>Acteurs:<br>Nadia Tereszkiewicz<br>André Dussolier<br>Dany Boon <br>Fabrice Lucchini<br>Isabelle Hupert</p>
+        <p>8 mars 2023 en salle / 1h 42min / Drame</p>
+        <p>De François Ozon</p>
+        <p>Avec Nadia Tereszkiewicz, André Dussolier, Dany Boon, Fabrice Lucchini, Isabelle Hupert</p>
     </div>
 </div>
 

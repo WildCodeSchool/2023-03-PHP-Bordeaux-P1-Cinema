@@ -10,9 +10,17 @@
     <title>Wild Cinema - Terminator 2</title>
 </head>
 <body>
-<?php
-include "_includes/navigation.php";
-?>
+<!---------- HEADER WITH BUTTON -------->
+<header id="terminator2">
+    <?php
+    include "_includes/navigation.php";
+    ?>
+    <div id="youtubeOn" onclick="youtubeButton()"></div>
+    <iframe id="youtube" src="https://www.youtube.com/embed/yWF2_TCgsas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
+</header>
+<!----------END OF HEADER-------->
+
 <!---Movie description--->
 <div class="movieDescription">
     <img class="moviePoster" src ="assets/images/Terminator2.jpeg" alt="affiche-film-Terminator">
@@ -22,8 +30,9 @@ include "_includes/navigation.php";
     </div>
     <div class="casting">
         <h2>Casting</h2>
-        <p>réaliser par : <br>James Cameron</p>
-        <p>Acteurs:<br> Arnold Schwarzenegger<br>Linda Hamilton<br>Edward Furlong<br>Robert Patrick</p>
+        <p>14 février 1991 en salle / 1h 42min / Action / Science fiction</p>
+        <p>De James Cameron</p>
+        <p>Avec Arnold Schwarzenegger , Linda Hamilton, Edward Furlong, Robert Patrick</p>
     </div>
 </div>
 <!----------End of movie description------->

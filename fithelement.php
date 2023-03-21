@@ -10,9 +10,17 @@
     <title>Wild Cinema - Le Cinquième élément</title>
 </head>
 <body>
-<?php
-include "_includes/navigation.php";
-?>
+<!---------- HEADER WITH BUTTON -------->
+<header id="the5Element">
+    <?php
+    include "_includes/navigation.php";
+    ?>
+    <div id="youtubeOn" onclick="youtubeButton()"></div>
+    <iframe  id="youtube" src="https://www.youtube.com/embed/7rzmiE-pESk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
+</header>
+<!----------END OF HEADER-------->
+
 <!---Movie description--->
 <div class="movieDescription">
     <img class="moviePoster" src ="assets/images/the5Element.jpg" alt="affiche-film-avatar">
@@ -24,6 +32,12 @@ include "_includes/navigation.php";
         <h2>Casting</h2>
         <p>réaliser par : <br>Luc Besson</p>
         <p>Acteurs:<br>Bruce Willis<br>Milla Jovovich<br>Gary Oldman<br>Chris Tucker<br>Ian Holm<br>Luke Perry</p>
+    </div>
+    <div class="casting">
+        <h2>Casting</h2>
+        <p>7 mai 1997 en salle / 1h 53min / Science fiction</p>
+        <p>De Luc Besson</p>
+        <p>Avec Bruce Willis, Milla Jovovich, Gary Oldman, Chris Tucker, Ian Holm, Luke Perry </p>
     </div>
 </div>
 
