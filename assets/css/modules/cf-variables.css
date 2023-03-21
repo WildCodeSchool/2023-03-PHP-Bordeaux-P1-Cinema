@@ -1,7 +1,7 @@
 :root {
     --background-color: #1f1d1e;
 /*font family -- bouton à part*/
-    --main-font: "#";    
+    --main-font: 'Bebas Neue', cursive;    
     --title-font: "#";
     --text-font: "#";
     --nav-font:"#";
