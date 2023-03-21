@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+  <section class="slider">
   <div class="container">
 
 
@@ -154,7 +154,7 @@
     </div>
 
   </div>
+</section>
 
-</body>
 
 </html>

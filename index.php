@@ -17,7 +17,11 @@ $listMovies= []
 <?php
 include "_includes/navigation.php";
 ?>
+<?php
+include "_includes/slide.php";
+?>
 </header>
+
 
 
 <main>
@@ -35,9 +39,7 @@ include "_includes/navigation.php";
             <?php endforeach; ?>
         </article>
     </section>
-    <?php
-    include "_includes/slide.php";
-    ?>
+    
 </main>
 
 <?php
