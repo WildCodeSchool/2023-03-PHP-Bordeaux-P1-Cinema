@@ -5,7 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-variables.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-navigation.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-index.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-slide.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-footer.css">
 
     <title>Index</title>
 </head>
@@ -18,8 +22,6 @@ $listMovies= []
 include "_includes/navigation.php";
 ?>
 </header>
-
-
 <main>
     <!---------------Classic Movie----------->
     <section class="oldMovieGallery">
@@ -37,13 +39,13 @@ include "_includes/navigation.php";
         </article>
         <!---------------End of Classic Movie----------->
     </section>
-
-    <img class="promotion" src="assets/images/pop-corn.jpeg">
-
+    <!-----------SLIDE--------->
     <?php
     include "_includes/slide.php";
     ?>
+    <!----------- END OF SLIDE--------->
 
+    <img class="promotion" src="assets/images/pop-corn.jpeg">
 </main>
 
 <?php

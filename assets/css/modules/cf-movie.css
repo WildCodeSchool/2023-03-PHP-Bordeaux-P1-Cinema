@@ -25,6 +25,7 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 80%;
+    padding-top: 10%;
 }
 .synopsis {
     color: white;
@@ -36,4 +37,5 @@
 }
 h2 {
     text-align: center;
+    color : #e51937;
 }

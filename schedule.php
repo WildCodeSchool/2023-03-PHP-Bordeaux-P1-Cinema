@@ -6,7 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Horaires</title>
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/modules/cf-variables.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-navigation.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-schedule.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-footer.css">
 </head>
 <body>
 <header id ="about">
