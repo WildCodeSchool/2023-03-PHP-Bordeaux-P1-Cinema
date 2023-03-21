@@ -1,27 +1,11 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/modules/cf-variables.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-navigation.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-about.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-movie.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-footer.css">
-    <title>Wild Cinema - Matrix</title>
-</head>
-<body>
-<!---------- HEADER WITH BUTTON -------->
-<header id="matrix">
-    <?php
-    include "_includes/navigation.php";
-    ?>
+<?php include "_includes/navigation.php" ?>
+<?php $listMovies= []; ?>
+    <!---------- YOUTUBE WITH BUTTON -------->
+<section id="matrix">
     <div id="youtubeOn" onclick="youtubeButton()"></div>
     <iframe id="youtube" src="https://www.youtube.com/embed/8xx91zoASLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
-</header>
+</section>
 <!----------END OF HEADER-------->
 <div class="movieDescription">
     <img class="moviePoster" src ="assets/images/043449_af.jpg" alt="affiche-film-Matrix">
@@ -48,8 +32,5 @@
     <img src="assets/capture/keanu-reeves-the-matrix-code.jpg" alt="personnages qui volent-avatar">
 </div>
 <!------- End of gallery------->
-<?php
-include "_includes/footer.php";
+<?php include "_includes/footer.php";
 ?>
-</body>
-</html>

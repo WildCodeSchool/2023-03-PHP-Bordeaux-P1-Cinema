@@ -1,29 +1,6 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/modules/cf-variables.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-navigation.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-about.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-movie.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-footer.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-    <title>About</title>
-</head>
-<body>
-    <header id ="about">
-        <?php
-        include "_includes/navigation.php";
-        ?>
-    </header>
+<?php include "_includes/navigation.php" ?>
+<?php $listMovies= []; ?>
     <!--Début de la page About-->
-    <main>
         <!--Début du texte de présentation-->
         <section class ="cinemaStory">
             <p>Le Wild Cinéma est né grâce à un homme, un grand amoureux des grands films : Jean Wild. Le petit Jean a vu le jour dans une petite ville nommée Bordeaux, et a baigné dans la culture cinématographique grâce à son grand-père.</p>
@@ -69,6 +46,6 @@
             <?php endforeach; ?>
         </article>
     </section>
-</main>
-</body>
-</html>
+<?php
+include "_includes/footer.php";
+?>
