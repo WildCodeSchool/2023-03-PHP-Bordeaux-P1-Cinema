@@ -1,28 +1,12 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/main.css">
+<?php include "_includes/navigation.php" ?>
+<?php $listMovies= []; ?>
+    <!-----------SLIDE--------->
+    <?php include "_includes/slide.php"; ?>
+    <!----------- END OF SLIDE--------->
 
-    <title>Index</title>
-</head>
-<body>
-<?php
-$listMovies= []
-?>
-<header id="home">
-<?php
-include "_includes/navigation.php";
-?>
-</header>
-
-
-<main>
+    <!---------------Classic Movie----------->
     <section class="oldMovieGallery">
-        <h2>Nos salles</h2>
+        <h2>Nos classiques</h2>
         <article>
             <?php  $OldMovies = [
                 "matrix.jpg"=>"Affiche du film Matrix",
@@ -34,15 +18,7 @@ include "_includes/navigation.php";
 
             <?php endforeach; ?>
         </article>
+        <!---------------End of Classic Movie----------->
     </section>
-    <?php
-    include "_includes/slide.php";
-    ?>
-</main>
-
-<?php
-include "_includes/footer.php";
-?>
-<script src="script.js"></script>
-</body>
-</html>
+    <img class="promotion" src="assets/images/pop-corn.jpeg">
+<?php include "_includes/footer.php"; ?>

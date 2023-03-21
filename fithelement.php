@@ -1,24 +1,11 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/main.css">
-
-    <title>Wild Cinema - Le Cinquième élément</title>
-</head>
-<body>
-<!---------- HEADER WITH BUTTON -------->
-<header id="the5Element">
-    <?php
-    include "_includes/navigation.php";
-    ?>
+<?php include "_includes/navigation.php" ?>
+<?php $listMovies= []; ?>
+<!---------- YOUTUBE WITH BUTTON -------->
+<section id="the5Element">
     <div id="youtubeOn" onclick="youtubeButton()"></div>
     <iframe  id="youtube" src="https://www.youtube.com/embed/7rzmiE-pESk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
-</header>
+</section>
 <!----------END OF HEADER-------->
 
 <!---Movie description--->
@@ -57,6 +44,3 @@
 <?php
 include "_includes/footer.php";
 ?>
-
-</body>
-</html>

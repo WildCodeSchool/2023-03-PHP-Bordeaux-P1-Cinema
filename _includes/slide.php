@@ -1,22 +1,6 @@
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slider Carousel Version 1</title>
-
-  
-  <link rel="stylesheet" href="cf-slide.css">
-</head>
-
-<body>
-
+<section class="slider">
   <div class="container">
-
-
     <input type="radio" name="slider" class="d-none" id="s1" checked>
     <input type="radio" name="slider" class="d-none" id="s2">
     <input type="radio" name="slider" class="d-none" id="s3">
@@ -154,7 +138,4 @@
     </div>
 
   </div>
-
-</body>
-
-</html>
+</section>
