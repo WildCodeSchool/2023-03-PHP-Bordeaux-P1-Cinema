@@ -1,27 +1,11 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/modules/cf-variables.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-navigation.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-movie.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-footer.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-about.css">
-    <title>Wild Cinema - Autant en emporte le vent</title>
-</head>
-<body>
-<!---------- HEADER WITH BUTTON -------->
-<header id="goneWithTheWind">
-    <?php
-    include "_includes/navigation.php";
-    ?>
+<?php include "_includes/navigation.php" ?>
+<?php $listMovies= []; ?>
+    <!---------- YOUTUBE WITH BUTTON -------->
+<section id="goneWithTheWind">
     <div id="youtubeOn" onclick="youtubeButton()"></div>
     <iframe id="youtube" src="https://www.youtube.com/embed/NOSSC-7LTdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
-</header>
+</section>
 <!----------END OF HEADER-------->
 
 <!---Movie description--->
@@ -50,11 +34,6 @@
     <img src="assets/capture/Polemique-peut-on-encore-lire-Autant-en-emporte-le-vent-aujourd-hui.jpg" alt="personnages qui volent-avatar">
 </div>
 <!------- End of gallery------->
-
-
 <?php
 include "_includes/footer.php";
 ?>
-
-</body>
-</html>

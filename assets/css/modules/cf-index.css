@@ -26,12 +26,7 @@ p{
     line-height:1.5;
 }
 
-#home{
-    background-image: url("../../images/cinemaTopSmall.jpg");
-    background-size: 100%;
-    height:30vh;
-    width:100vw;
-}
+
 
 .oldMovieGallery article{
     display: flex;
@@ -48,7 +43,9 @@ p{
     box-shadow: 5px 5px 15px 5px #000000;
 }
 .promotion {
-    padding-top: 20px;
+    padding-top: 100px;
+    max-height: 500px;
+    opacity: 0.80;
 }
 article {
     width: 80%;
@@ -63,11 +60,11 @@ h2{
 
 
 @media screen and (min-width: 767px){
-    #home{background: url("../../images/cinemaTopMedium.jpg") no-repeat top center ;background-size: cover;height:50vh;width:100vw}
+    #home{background: url("../../images/background-scream.jpeg") no-repeat top center ;background-size: 90%;height:50vh;min-width:100vw}
 
 }
 @media screen and (min-width: 968px){
-    #home{background: url("../../images/cinemaTop.jpg") no-repeat top center ;background-size: cover;height:60vh;width:100vw}
+    #home{background: url("../../images/background-scream.jpeg") no-repeat top center ;background-size: 90%;height:60vh;min-width:100vw}
     .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
     .contactDetails article:first-child{width: 59% ;}
     .contactDetails article:nth-child(2){width: 35% ;}
@@ -79,12 +76,9 @@ h2{
 }
 @media screen and (min-width: 1200px) {
     #about {
-        background: url("../../images/cinemaTop.jpg") no-repeat top center;
+        background: url("../../images/background-scream.jpeg") no-repeat top center;
         background-size: cover;
         height: 75vh;
         width: 100vw
     }
-}
-.promotion {
-    max-height: 500px;
 }

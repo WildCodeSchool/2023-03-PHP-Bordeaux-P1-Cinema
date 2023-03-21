@@ -7,12 +7,24 @@
     <list default="true" id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/slide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-movie.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-movie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-slide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar.php" beforeDir="false" afterPath="$PROJECT_DIR$/avatar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditions.php" beforeDir="false" afterPath="$PROJECT_DIR$/conditions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creed3.php" beforeDir="false" afterPath="$PROJECT_DIR$/creed3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fithelement.php" beforeDir="false" afterPath="$PROJECT_DIR$/fithelement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gonewiththewind.php" beforeDir="false" afterPath="$PROJECT_DIR$/gonewiththewind.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrix.php" beforeDir="false" afterPath="$PROJECT_DIR$/matrix.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moncrime.php" beforeDir="false" afterPath="$PROJECT_DIR$/moncrime.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies.php" beforeDir="false" afterPath="$PROJECT_DIR$/movies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pussinboots.php" beforeDir="false" afterPath="$PROJECT_DIR$/pussinboots.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scream6.php" beforeDir="false" afterPath="$PROJECT_DIR$/scream6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminator2.php" beforeDir="false" afterPath="$PROJECT_DIR$/terminator2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +96,7 @@
       <workItem from="1678974687609" duration="15213000" />
       <workItem from="1679046055523" duration="9472000" />
       <workItem from="1679325519457" duration="1858000" />
-      <workItem from="1679327737982" duration="5843000" />
+      <workItem from="1679327737982" duration="13804000" />
     </task>
     <servers />
   </component>

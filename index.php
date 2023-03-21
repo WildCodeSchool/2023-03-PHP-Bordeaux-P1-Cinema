@@ -1,32 +1,7 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/modules/cf-variables.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-navigation.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-index.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-slide.css">
-    <link rel="stylesheet" href="assets/css/modules/cf-footer.css">
-
-    <title>Index</title>
-</head>
-<body>
-<?php
-$listMovies= []
-?>
-<header id="home">
-<?php
-include "_includes/navigation.php";
-?>
-</header>
-<main>
+<?php include "_includes/navigation.php" ?>
+<?php $listMovies= []; ?>
     <!-----------SLIDE--------->
-    <?php
-    include "_includes/slide.php";
-    ?>
+    <?php include "_includes/slide.php"; ?>
     <!----------- END OF SLIDE--------->
 
     <!---------------Classic Movie----------->
@@ -46,11 +21,4 @@ include "_includes/navigation.php";
         <!---------------End of Classic Movie----------->
     </section>
     <img class="promotion" src="assets/images/pop-corn.jpeg">
-</main>
-
-<?php
-include "_includes/footer.php";
-?>
-<script src="script.js"></script>
-</body>
-</html>
+<?php include "_includes/footer.php"; ?>
