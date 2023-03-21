@@ -26,7 +26,7 @@
                        
                 <!-- DESKTOP : flèche (en haut centrée) ; MOBILE : absence-->
             <div> <!-- Mettre ID ancre dans "navigation.php" retour en HAUT de la page-->
-                <p class="arrowFooter"><a href="#nomIDDansNavigation.php">&#9650</a></p>
+                <p class="arrowFooter"><a href="#">&#9650</a></p>
             </div>
 
             <div class="footer">
