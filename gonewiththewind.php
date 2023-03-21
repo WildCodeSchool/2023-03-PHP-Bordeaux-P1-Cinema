@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/modules/cf-navigation.css">
     <link rel="stylesheet" href="assets/css/modules/cf-movie.css">
     <link rel="stylesheet" href="assets/css/modules/cf-footer.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-about.css">
     <title>Wild Cinema - Autant en emporte le vent</title>
 </head>
 <body>

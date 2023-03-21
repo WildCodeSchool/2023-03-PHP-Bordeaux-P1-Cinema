@@ -6,17 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-movie.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-movie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/avatar.php" beforeDir="false" afterPath="$PROJECT_DIR$/avatar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/creed3.php" beforeDir="false" afterPath="$PROJECT_DIR$/creed3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fithelement.php" beforeDir="false" afterPath="$PROJECT_DIR$/fithelement.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gonewiththewind.php" beforeDir="false" afterPath="$PROJECT_DIR$/gonewiththewind.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matrix.php" beforeDir="false" afterPath="$PROJECT_DIR$/matrix.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mon_crime.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/moncrime.php" beforeDir="false" afterPath="$PROJECT_DIR$/moncrime.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pussinboots.php" beforeDir="false" afterPath="$PROJECT_DIR$/pussinboots.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.php" afterDir="false" />
@@ -91,7 +86,7 @@
       <workItem from="1679046055523" duration="9472000" />
       <workItem from="1679325519457" duration="1858000" />
       <workItem from="1679327737982" duration="630000" />
-      <workItem from="1679387746063" duration="11795000" />
+      <workItem from="1679387746063" duration="12177000" />
     </task>
     <servers />
   </component>

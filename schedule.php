@@ -8,6 +8,7 @@
     <title>Horaires</title>
     <link rel="stylesheet" href="assets/css/modules/cf-variables.css">
     <link rel="stylesheet" href="assets/css/modules/cf-navigation.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-about.css">
     <link rel="stylesheet" href="assets/css/modules/cf-schedule.css">
     <link rel="stylesheet" href="assets/css/modules/cf-footer.css">
 </head>

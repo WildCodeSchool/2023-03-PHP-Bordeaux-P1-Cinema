@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/modules/cf-variables.css">
     <link rel="stylesheet" href="assets/css/modules/cf-navigation.css">
+    <link rel="stylesheet" href="assets/css/modules/cf-about.css">
     <link rel="stylesheet" href="assets/css/modules/cf-movie.css">
     <link rel="stylesheet" href="assets/css/modules/cf-footer.css">
     <title>Wild Cinema - scream 6</title>
