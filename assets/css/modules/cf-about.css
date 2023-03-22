@@ -20,7 +20,7 @@ p{line-height:1.5}
 
 .cinemaStory{margin: 30px auto;width:80%;}
 .contactDetails,.contactGallery article{ display: flex;justify-content: center;flex-direction:column;width: 100% ;align-items: center}
-.carte-responsive iframe{width:100%;height:60vh}
+.carte-responsive iframe{width:100%;height:60vh;margin-bottom: 80px;}
 h2{margin :12px 0;width: 100% ;color:var(--logo-color)}
 
 .contactGallery article img{width: 100% ;height: auto; margin-top:12px}
@@ -28,7 +28,14 @@ section >p{color:var(--text-color); width: 100%;z-index: 999}
 article p{color:var(--text-color);text-align: right}
 article {width: 80% ;}
 article h2{text-align: right}
-
+article h3{text-align: right}
+.slogan {
+    font-size: 35px;
+}
+.cinemaStory {
+    width:85%;
+    justify-items: center;
+}
 .contactGallery article img{width:80%;margin-bottom:3%}
 
 /*fiche film*/
@@ -58,16 +65,16 @@ article h2{text-align: right}
 
 }
 @media screen and (min-width: 968px){
-    #about{background: url("../../images/cinemaTop.jpg") no-repeat top center ;height: 475px; width: 100vw;background-size: cover;}
-    #creed3 {background: url("../../images/creedTop.jpg") no-repeat top center ;height: 475px; width: 100vw;background-size: cover;}
-    #avatar2{background: url("../../background/avatarTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
-    #scream6{background: url("../../background/screamTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
-    #monCrime{background: url("../../background/monCrimeTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
-    #the5Element{background: url("../../background/the5ElementTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
-    #pussinboots{background: url("../../background/pussInBootsTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
-    #terminator2{background: url("../../background/terminatorTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
-    #goneWithTheWind{background: url("../../background/goneWithTheWindTop.jpg") no-repeat top center ;height: 475px; width: 100vw;background-size: cover;}
-    #matrix{background: url("../../background/matrixTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
+    #about{background: url("../../images/cinemaTop.jpg") no-repeat bottom center ;height: 600px; width: 100vw;background-size: cover;}
+    #creed3 {background: url("../../images/creedTop.jpg") no-repeat bottom center ;height: 600px; width: 100vw;background-size: cover;}
+    #avatar2{background: url("../../background/avatarTop.jpg") no-repeat bottom center;height: 600px; width: 100vw;background-size: cover;}
+    #scream6{background: url("../../background/screamTop.jpg") no-repeat bottom center;height: 600px; width: 100vw;background-size: cover;}
+    #monCrime{background: url("../../background/monCrimeTop.jpg") no-repeat bottom center;height: 600px; width: 100vw;background-size: cover;}
+    #the5Element{background: url("../../background/the5ElementTop.jpg") no-repeat bottom center;height: 600px; width: 100vw;background-size: cover;}
+    #pussinboots{background: url("../../background/pussInBootsTop.jpg") no-repeat bottom center;height: 600px; width: 100vw;background-size: cover;}
+    #terminator2{background: url("../../background/terminatorTop.jpg") no-repeat bottom center;height: 600px; width: 100vw;background-size: cover;}
+    #goneWithTheWind{background: url("../../background/goneWithTheWindTop.jpg") no-repeat bottom center ;height: 600px; width: 100vw;background-size: cover;}
+    #matrix{background: url("../../background/matrixTop.jpg") no-repeat bottom center;height: 600px; width: 100vw;background-size: cover;}
 
     .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
     .contactDetails article:first-child{width: 59% ;}
@@ -79,8 +86,8 @@ article h2{text-align: right}
     .contactGallery article img{width: 25% ;height: auto; margin-top:12px}
 }
 @media screen and (min-width: 1200px) {
-    #about {background: url("../../images/cinemaTop.jpg") no-repeat top center;background-size: cover;}
-    #creed3 {background: url("../../images/creedTop.jpg") no-repeat top right;background-size: cover;}
+    #about {background: url("../../images/cinemaTop.jpg") no-repeat bottom;background-size: cover;}
+    #creed3 {background: url("../../images/creedTop.jpg") no-repeat bottom;background-size: cover;}
 
 }
 
