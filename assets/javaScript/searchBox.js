@@ -1,10 +1,20 @@
+
 function search(e) {
+
     let pages=Array(
         ["Avatar","avatar.php"],
         ["avatar","avatar.php"],
         ["AVATAR","avatar.php"],
         ["creed 3","creed3.php"],
         ["creed three","creed3.php"],
+
+	var pages=Array(
+		["Avatar","avatar.php"],
+		["avatar","avatar.php"],
+		["AVATAR","avatar.php"],
+		["creed 3","creed3.php"],
+		["creed three","creed3.php"],
+
         ["Creed three","creed3.php"],
         ["creed Three","creed3.php"],
         ["Creed Three","creed3.php"],
@@ -26,6 +36,7 @@ function search(e) {
         ["scream Six","scream6.php"],
         ["Scream Six","scream6.php"],
         ["Scream six","scream6.php"],
+
         ["SCREAM SIX","scream6.php"]    );
     let page=document.getElementById("pages").value;
     for(let i=0;i<pages.length;i++) {
@@ -36,4 +47,21 @@ function search(e) {
     }
     window.location.href="error.php";
     return false;
+}
+
+        ["SCREAM SIX","scream6.php"]
+
+
+        
+
+	);
+	var page=document.getElementById("page").value;
+	for(var i=0;i<pages.length;i++) {
+		if(page==pages[i][0]) {
+			window.location.href=pages[i][1];
+			return false;
+		}
+	}
+	window.location.href="error.php";
+	return false;
 }
