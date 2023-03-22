@@ -20,12 +20,13 @@
     border-radius: 30px;
     box-shadow: 5px 5px 15px 5px #000000;
 }
+
 .movieDescription {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     width: 80%;
-    padding-top: 10%;
+    padding-top: 70px;
 }
 .synopsis {
     color: white;
