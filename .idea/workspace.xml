@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-movie.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-movie.css" afterDir="false" />
-    </list>
+    <list default="true" id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +76,7 @@
       <workItem from="1679046055523" duration="9472000" />
       <workItem from="1679325519457" duration="1858000" />
       <workItem from="1679327737982" duration="30737000" />
-      <workItem from="1679489145941" duration="13124000" />
+      <workItem from="1679489145941" duration="13618000" />
     </task>
     <servers />
   </component>
