@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../assets/css/modules/cf-schedule.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-footer.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-movie.css">
+    <link rel="stylesheet" href="../assets/css/modules/cf-film.css">
 
 </head>
 <body>

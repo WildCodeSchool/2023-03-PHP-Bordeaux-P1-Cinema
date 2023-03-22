@@ -17,6 +17,6 @@
         </article>
         <!---------------End of Classic Movie----------->
     </section>
-    <img class="promotion" src="assets/images/pop-corn.jpeg">
-    <img class="popcorn" src="assets/images/Popcorn-PNG-Photo-Image.png">
+<!------------PROMOTION------------->
+<img class="promotion" src="assets/images/pop-corn.jpeg" alt="popcorn">
 <?php include "_includes/footer.php"; ?>

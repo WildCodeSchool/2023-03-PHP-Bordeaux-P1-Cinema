@@ -1,5 +1,5 @@
 function search(e) {
-    var pages=Array(
+    let pages=Array(
         ["Avatar","avatar.php"],
         ["avatar","avatar.php"],
         ["AVATAR","avatar.php"],
@@ -27,8 +27,8 @@ function search(e) {
         ["Scream Six","scream6.php"],
         ["Scream six","scream6.php"],
         ["SCREAM SIX","scream6.php"]    );
-    var page=document.getElementById("page").value;
-    for(var i=0;i<pages.length;i++) {
+    let page=document.getElementById("pages").value;
+    for(let i=0;i<pages.length;i++) {
         if(page==pages[i][0]) {
             window.location.href=pages[i][1];
             return false;
