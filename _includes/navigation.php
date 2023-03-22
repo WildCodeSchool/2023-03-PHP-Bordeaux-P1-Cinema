@@ -22,7 +22,7 @@
         </div>
         <div class="search">
             <form>
-                <input type="text" id="search-box" placeholder="Rechercher...">
+                <input class= "search-box" type="text" id="search-box" placeholder="Rechercher...">
                 <button type="submit" id="search-btn">OK</button>
                 <script src="../assets/javaScript/searchBox.js"></script>
             </form>
