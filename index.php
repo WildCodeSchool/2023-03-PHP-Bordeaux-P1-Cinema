@@ -1,7 +1,7 @@
 <?php include "_includes/navigation.php" ?>
 <?php $listMovies= []; ?>
     <!-----------SLIDE--------->
-    <?php include "_includes/slide.php"; ?>
+<?php include "_includes/slide.php"; ?>
     <!----------- END OF SLIDE--------->
 
     <!---------------Classic Movie----------->
