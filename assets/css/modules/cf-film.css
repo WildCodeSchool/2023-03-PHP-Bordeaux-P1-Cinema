@@ -1,0 +1,38 @@
+.movie img {
+    width: 250px;
+    height: 350px;
+    margin-left: 10%;
+    transition: all 0.1ms ease-in-out;
+    grid-row: auto;
+}
+.movie{
+    margin-top: 10px;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxoffice {
+    width:100%;
+    align-content: space-around;
+}
+.classicMovie {
+    width:100%;
+    align-content: space-around;
+}
+.preview {
+    width:100%;
+    align-content: space-around;
+}
+.classicMovie img {
+    width: 210px;
+}
+.movie img:hover{
+    transform: scale(1.2);
+}
+.titleMovie{
+    padding-top: 60px;
+}

@@ -17,8 +17,7 @@
         </thead>
         <tr class="grey-tab">
             <td>
-                <a href="avatar.php">
-                    <img src="assets/images/Capture d’écran 2023-03-09 à 19.08.51.png" alt="affiche-film-avatar" height="100px"></a>
+                <a href="avatar.php"><img src="assets/images/Capture d’écran 2023-03-09 à 19.08.51.png" alt="affiche-film-avatar" height="100px"></a>
             </td>
             <td>21:00</td>
             <td>18:00</td>
@@ -124,3 +123,5 @@
             <td>20:30</td>
             <td>21:00</td>
         </tr>
+
+        <img class="popcorn" src="assets/images/Popcorn-PNG-Photo-Image.png">
