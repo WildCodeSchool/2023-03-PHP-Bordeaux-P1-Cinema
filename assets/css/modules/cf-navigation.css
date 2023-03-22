@@ -16,6 +16,7 @@
     z-index: 999;
     padding: 5px 10px;
     font-family: "Bebas neue";
+    top: 0;
 }
 
 .logo img {
@@ -58,12 +59,14 @@
 
 }
 
-.search input[type="text"] {
+input.search-box[type="text"] {
     border: none;
     padding: 5px;
     margin-right: 10px;
     font-size: 16px;
     border-radius: 10px;
+
+
 }
 
 .search button[type="submit"] {
@@ -100,6 +103,7 @@ form {
         height: 60px;
         display: flex;
         justify-items: center;
+
 
 
     }

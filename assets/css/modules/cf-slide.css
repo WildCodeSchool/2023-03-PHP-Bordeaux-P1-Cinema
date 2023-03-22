@@ -12,7 +12,7 @@ a{
     text-decoration: none;
 }
 
-input {
+input.slideinput {
 
     display: none;
 }

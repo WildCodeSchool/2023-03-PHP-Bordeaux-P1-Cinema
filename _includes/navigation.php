@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="../assets/css/modules/cf-navigation.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-index.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-slide.css">
+    <link rel="stylesheet" href="../assets/css/modules/cf-schedule.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-footer.css">
+    <link rel="stylesheet" href="../assets/css/modules/cf-movie.css">
 
 </head>
 <body>
@@ -23,7 +25,7 @@
         </div>
         <div class="search">
             <form>
-                <input type="text" id="search-box" placeholder="Rechercher...">
+                <input class= "search-box" type="text" id="search-box" placeholder="Rechercher...">
                 <button type="submit" id="search-btn">OK</button>
                 <script src="../assets/javaScript/searchBox.js"></script>
             </form>
