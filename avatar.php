@@ -1,24 +1,12 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <title>Wild Cinema - Avatar</title>
-</head>
-<body>
-<!---------- HEADER WITH BUTTON -------->
-<header id="avatar2">
-    <?php
-    include "_includes/navigation.php";
-    ?>
+<?php include "_includes/navigation.php" ?>
+<?php $listMovies= []; ?>
+<!---------- SECTION YOUTUBE -------->
+<section id="avatar2">
     <div id="youtubeOn" onclick="youtubeButton()"></div>
     <iframe  id="youtube" src="https://www.youtube.com/embed/598NnroP42s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div id="youtubeClose" onclick="youtubeButtonCLose()"><span>Close</span></div>
-</header>
-<!----------END OF HEADER-------->
+</section>
+<!----------END OF YOUTUBE-------->
 <!---Movie description--->
 <div class="movieDescription">
     <img class="moviePoster" src ="assets/images/s-l1600.jpg" alt="affiche-film-avatar">
@@ -46,9 +34,4 @@
     <img src="assets/capture/4176973.jpg-r_1920_1080-f_jpg-q_x-xxyxx.jpg" alt="personnages qui volent-avatar">
 </div>
 <!------- End of gallery------->
-<?php
-include "_includes/footer.php";
-?>
-
-</body>
-</html>
+<?php include "_includes/footer.php"; ?>
