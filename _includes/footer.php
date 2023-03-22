@@ -17,9 +17,9 @@
         <!-- DESKTOP: à gauche ; MOBILE : absence-->
         <div class="socialNetworks">
             <ul>
-                <li><a href="#"><img src="#" alt="Facebook"></a></li>
-                <li><a href="#"><img src="#" alt="Twitter"></a></li>
-                <li><a href="#"><img src="#" alt="Instagram"></a></li>
+                <li><a href="#"><img src="../assets/images/logo_facebook.png" alt="Facebook" height=30px></a></li>
+                <li><a href="#"><img src="../assets/images/logo_twitter.png" alt="Twitter" height=30px></a></li>
+                <li><a href="#"><img src="../assets/images/logo_instagram.png" alt="Instagram" height=30px></a></li>
             </ul>
         </div>
     </div>
@@ -32,5 +32,3 @@
 <script src="../assets/js/script.js"></script>
 </body>
 </html>
-
-

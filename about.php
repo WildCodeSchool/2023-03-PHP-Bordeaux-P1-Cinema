@@ -1,6 +1,6 @@
 <?php include "_includes/navigation.php" ?>
-<?php $listMovies= []; ?>
     <!--Début de la page About-->
+<section id="about"></section>
         <!--Début du texte de présentation-->
         <section class ="cinemaStory">
             <p>Le Wild Cinéma est né grâce à un homme, un grand amoureux des grands films : Jean Wild. Le petit Jean a vu le jour dans une petite ville nommée Bordeaux, et a baigné dans la culture cinématographique grâce à son grand-père.</p>

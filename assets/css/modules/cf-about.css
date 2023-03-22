@@ -5,21 +5,20 @@ a:hover{color:var(--logo-color)}
 body{background-color:var(--background-color); }
 p{line-height:1.5}
 
-/*Header*/
-#about{background: url("../../images/cinemaTopSmall.jpg") no-repeat top center;background-size: cover;}
-#creed3{background: url("../../images/creedTopSmall.jpg") no-repeat top right;background-size: 100%;}
-#avatar2{background: url("../../images/avatarTopSmall.jpg") no-repeat top right;background-size: 100%;}
-#scream6{background: url("../../images/screamTopSmall.jpg") no-repeat top right;background-size: 100%;}
-#monCrime{background: url("../../images/monCrimeTopSmall.jpg") no-repeat top right;background-size: 100%;}
-#the5Element{background: url("../../images/the5ElementTopSmall.jpg") no-repeat top right;background-size: 100%;}
-#pussinboots{background: url("../../images/pussInBootsTopSmall.jpg") no-repeat top right;background-size: 100%;}
-#terminator2{background: url("../../images/terminatorTopSmall.jpg") no-repeat top right;background-size: 100%;}
-#goneWithTheWind{background: url("../../images/GoneWithTheWindTopSmall.jpg") no-repeat top right;background-size: 100%;}
-#matrix{background: url("../../images/matrixTopSmall.jpg") no-repeat top right;background-size: 100%;}
-header{height:30vh;width:100vw;position:relative;}
+/*BODY > SECTION */
+#about{background: url("../../background/cinemaTopSmall.jpg") no-repeat top center;background-size: cover;height:340px;width:100vw;position:relative;}
+#creed3{background: url("../../background/creedTopSmall.jpg") no-repeat top right;background-size: cover;height:340px;width:100vw;position:relative;}
+#avatar2{background: url("../../background/avatarTopSmall.jpg") no-repeat top right;background-size: cover;height:340px;width:100vw;position:relative;}
+#scream6{background: url("../../background/screamTopSmall.jpg") no-repeat top right;background-size: cover;height:340px;width:100vw;position:relative;}
+#monCrime{background: url("../../background/monCrimeTopSmall.jpg") no-repeat top right;background-size: cover;height:340px;width:100vw;position:relative;}
+#the5Element{background: url("../../background/the5ElementTopSmall.jpg") no-repeat top right;background-size: cover;height:340px;width:100vw;position:relative;}
+#pussinboots{background: url("../../background/pussInBootsTopSmall.jpg") no-repeat top right;background-size: cover;height:340px;width:100vw;position:relative;}
+#terminator2{background: url("../../background/terminatorTopSmall.jpg") no-repeat top right;background-size: cover;height:340px;width:100vw;position:relative;}
+#goneWithTheWind{background: url("../../background/GoneWithTheWindTopSmall.jpg") no-repeat top right;background-size: cover;height:340px;width:100vw;position:relative;}
+#matrix{background: url("../../background/matrixTopSmall.jpg") no-repeat top right;background-size: cover;height:340px;width:100vw;position:relative;}
 
 
-.cinemaStory{margin: -50px 0 36px 3%;}
+.cinemaStory{margin: 30px auto;width:80%;}
 .contactDetails,.contactGallery article{ display: flex;justify-content: center;flex-direction:column;width: 100% ;align-items: center}
 .carte-responsive iframe{width:100%;height:60vh}
 h2{margin :12px 0;width: 100% ;color:var(--logo-color)}
@@ -40,40 +39,36 @@ article h2{text-align: right}
 
 /*Media queries*/
 @media screen and (min-width: 650px) {
-    #home,#about,#creed3,#avatar2,#scream6,#monCrime,#the5Element,#pussinboots,#terminator2,#goneWithTheWind,#matrix {background-size: cover;}
+    #backgroundMovie,#about,#creed3,#avatar2,#scream6,#monCrime,#the5Element,#pussinboots,#terminator2,#goneWithTheWind,#matrix {background-size: cover;}
 }
 @media screen and (min-width: 767px) {
-    header {height: 50vh; width: 100vw;}
-    #about {background: url("../../images/cinemaTopMedium.jpg") no-repeat top center;background-size: cover;}
-    #creed3 {background: url("../../images/creedTopMedium.jpg") no-repeat top right; background-size: cover;}
-    #home {background:no-repeat top center;}
-    #avatar2{background: url("../../images/avatarTopMedium.jpg") no-repeat top center;}
-    #scream6{background: url("../../images/screamTopMedium.jpg") no-repeat top right;}
-    #monCrime{background: url("../../images/monCrimeTopMedium.jpg") no-repeat top center;}
-    #the5Element{background: url("../../images/the5ElementTopMedium.jpg") no-repeat top center;}
-    #pussinboots{background: url("../../images/pussInBootsTopMedium.jpg") no-repeat top center;}
-    #terminator2{background: url("../../images/terminatorTopMedium.jpg") no-repeat top left;}
-    #goneWithTheWind{background: url("../../images/GoneWithTheWindTopMedium.jpg") no-repeat top right;}
-    #matrix{background: url("../../images/matrixTopMedium.jpg") no-repeat top right;}
+    #about {background: url("../../images/cinemaTopMedium.jpg") no-repeat top center;height: 407px; width: 100vw;background-size: cover;}
+    #creed3 {background: url("../../images/creedTopMedium.jpg") no-repeat top right;height: 407px; width: 100vw;background-size: cover;}
+    #avatar2{background: url("../../background/avatarTopMedium.jpg") no-repeat top center;height: 407px; width: 100vw;background-size: cover;}
+    #scream6{background: url("../../background/screamTopMedium.jpg") no-repeat top right;height: 407px; width: 100vw;background-size: cover;}
+    #monCrime{background: url("../../background/monCrimeTopMedium.jpg") no-repeat top center;height: 407px; width: 100vw;background-size: cover;}
+    #the5Element{background: url("../../background/the5ElementTopMedium.jpg") no-repeat top center;height: 407px; width: 100vw;background-size: cover;}
+    #pussinboots{background: url("../../background/pussInBootsTopMedium.jpg") no-repeat top center;height: 407px; width: 100vw;background-size: cover;}
+    #terminator2{background: url("../../background/terminatorTopMedium.jpg") no-repeat top left;height: 407px; width: 100vw;background-size: cover;}
+    #goneWithTheWind{background: url("../../background/GoneWithTheWindTopMedium.jpg") no-repeat top right;height: 407px; width: 100vw;background-size: cover;}
+    #matrix{background: url("../../background/matrixTopMedium.jpg") no-repeat top right;height: 407px; width: 100vw;background-size: cover;}
 
 
     section >p{ width: 75%;}
 
 }
 @media screen and (min-width: 968px){
-    #about{background: no-repeat top center ;}
-    #about{background: url("../../images/cinemaTop.jpg") no-repeat top center ;}
-    #creed3 {background: url("../../images/creedTop.jpg") no-repeat top center ;}
-    #avatar2{background: url("../../images/avatarTop.jpg") no-repeat top center;}
-    #scream6{background: url("../../images/screamTop.jpg") no-repeat top center;}
-    #monCrime{background: url("../../images/monCrimeTop.jpg") no-repeat top center;}
-    #the5Element{background: url("../../images/the5ElementTop.jpg") no-repeat top center;}
-    #pussinboots{background: url("../../images/pussInBootsTop.jpg") no-repeat top center;}
-    #terminator2{background: url("../../images/terminatorTop.jpg") no-repeat top center;}
-    #goneWithTheWind{background: url("../../images/goneWithTheWindTop.jpg") no-repeat top center ;}
-    #matrix{background: url("../../images/matrixTop.jpg") no-repeat top center;}
+    #about{background: url("../../images/cinemaTop.jpg") no-repeat top center ;height: 475px; width: 100vw;background-size: cover;}
+    #creed3 {background: url("../../images/creedTop.jpg") no-repeat top center ;height: 475px; width: 100vw;background-size: cover;}
+    #avatar2{background: url("../../background/avatarTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
+    #scream6{background: url("../../background/screamTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
+    #monCrime{background: url("../../background/monCrimeTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
+    #the5Element{background: url("../../background/the5ElementTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
+    #pussinboots{background: url("../../background/pussInBootsTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
+    #terminator2{background: url("../../background/terminatorTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
+    #goneWithTheWind{background: url("../../background/goneWithTheWindTop.jpg") no-repeat top center ;height: 475px; width: 100vw;background-size: cover;}
+    #matrix{background: url("../../background/matrixTop.jpg") no-repeat top center;height: 475px; width: 100vw;background-size: cover;}
 
-    header{height:75vh;width:100vw}
     .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
     .contactDetails article:first-child{width: 59% ;}
     .contactDetails article:nth-child(2){width: 35% ;}
@@ -84,15 +79,14 @@ article h2{text-align: right}
     .contactGallery article img{width: 25% ;height: auto; margin-top:12px}
 }
 @media screen and (min-width: 1200px) {
-    #about {background: url("../../images/cinemaTop.jpg") no-repeat top center;}
+    #about {background: url("../../images/cinemaTop.jpg") no-repeat top center;background-size: cover;}
     #creed3 {background: url("../../images/creedTop.jpg") no-repeat top right;background-size: cover;}
-    header {height: 90vh;width: 100vw;}
 
 }
 
 /*films*/
 
-header iframe{margin:auto; }
+body section iframe{margin:auto; }
 #youtubeOn{position : absolute;top: 150px; width: 70px; height :40px; left: 50%;margin-left:-35px;background: url("../../images/youtube.png") no-repeat top center; }
 #youtube{width:80%;height:250px;position:relative;}
 #youtubeClose{position : absolute;top: 5px; width: 70px; height :40px; left: 85%;padding-top:8px;background: url("../../images/close.png") no-repeat top center; }

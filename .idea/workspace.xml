@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a41118-dd89-4ff8-8dfb-fc44477f127b" name="Changes" comment="">
+    <list default="true" id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-schedule.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-schedule.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/film.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-film.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/javaScript/searchBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javaScript/searchBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies.php" beforeDir="false" afterPath="$PROJECT_DIR$/movies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -33,7 +41,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.2" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2N2vkA73jYfOB79l7w5B1AzV95P" />
   <component name="ProjectViewState">
@@ -66,7 +74,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78a41118-dd89-4ff8-8dfb-fc44477f127b" name="Changes" comment="" />
+      <changelist id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="" />
       <created>1678875131480</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -82,6 +90,8 @@
       <workItem from="1679327737982" duration="13804000" />
       <workItem from="1679424970090" duration="889000" />
       <workItem from="1679473061284" duration="8841000" />
+      <workItem from="1679327737982" duration="30737000" />
+
     </task>
     <servers />
   </component>

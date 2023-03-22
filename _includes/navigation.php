@@ -6,10 +6,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/modules/cf-variables.css">
+    <link rel="stylesheet" href="../assets/css/modules/cf-about.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-navigation.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-index.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-slide.css">
+    <link rel="stylesheet" href="../assets/css/modules/cf-schedule.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-footer.css">
+    <link rel="stylesheet" href="../assets/css/modules/cf-movie.css">
+    <link rel="stylesheet" href="../assets/css/modules/cf-film.css">
+
 </head>
 
 <body>
@@ -32,11 +37,11 @@
         </div>
         <div class="links">
             <ul>
-                <li><a href="../index.php">Accueil</a></li>
-                <li><a href="../movies.php">Films</a></li>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="movies.php">Films</a></li>
                 <img src="../assets/images/logoDefinitif.png" alt="Logo" class="logo2">
-                <li><a href="../schedule.php">Horaires</a></li>
-                <li><a href="../about.php">Contacts</a></li>
+                <li><a href="schedule.php">Horaires</a></li>
+                <li><a href="about.php">Contacts</a></li>
             </ul>
         </div>
     </nav><!--Fin de navbar-->
