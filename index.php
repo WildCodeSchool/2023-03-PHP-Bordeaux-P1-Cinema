@@ -1,5 +1,7 @@
 <?php include "_includes/navigation.php" ?>
-<?php $listMovies= []; ?>
+<section id="backgroundMovie">
+
+</section>
     <!-----------SLIDE--------->
 <?php include "_includes/slide.php"; ?>
     <!----------- END OF SLIDE--------->
@@ -15,5 +17,6 @@
         </article>
         <!---------------End of Classic Movie----------->
     </section>
-    <img class="promotion" src="assets/images/pop-corn.jpeg">
+<!------------PROMOTION------------->
+<img class="promotion" src="assets/images/pop-corn.jpeg" alt="popcorn">
 <?php include "_includes/footer.php"; ?>

@@ -1,5 +1,6 @@
 
 <section class="slider">
+
   <div class="container">
     <input type="radio" name="slider" class="d-none" id="s1" checked>
     <input type="radio" name="slider" class="d-none" id="s2">
@@ -24,7 +25,7 @@
               lorem. Nulla eu
               sodales</span>
           </div>
-          <a href="/contact" class="btn-contact">details</a>
+          <a href="avatar.php" class="btn-contact">Afficher ce film</a>
           <div class="socials">
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-regular fa-heart"></i>
@@ -50,7 +51,7 @@
               lorem. Nulla eu
               sodales karma stellus</span>
           </div>
-          <a href="/contact" class="btn-contact">details</a>
+          <a href="creed3.php" class="btn-contact">Afficher ce film</a>
           <div class="socials">
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-regular fa-heart"></i>
@@ -75,7 +76,7 @@
             <span class="lorem">Lorem ipsum dolor, sit amet let kar adipiscing. Aenean vel velit sit ansd . Nullam
               lorem. Nulla karma stellus</span>
           </div>
-          <a href="/contact" class="btn-contact">details</a>
+          <a href="moncrime.php" class="btn-contact">Afficher ce film</a>
           <div class="socials">
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-regular fa-heart"></i>
@@ -100,7 +101,7 @@
             <span class="lorem">Lorem ipsum dolor sit, sit amet elit. Aenean sit amet sit amet vel velit sit ansd. Nulla eu
               sodales stellus</span>
           </div>
-          <a href="/contact" class="btn-contact">details</a>
+          <a href="pussinboots.php" class="btn-contact">Afficher ce film</a>
           <div class="socials">
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-regular fa-heart"></i>
@@ -126,7 +127,7 @@
               lorem. Nulla eu
               sodales stellus</span>
           </div>
-          <a href="/contact" class="btn-contact">details</a>
+          <a href="scream6.php" class="btn-contact">Afficher ce film</a>
           <div class="socials">
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-regular fa-heart"></i>
@@ -139,3 +140,7 @@
 
   </div>
 </section>
+
+
+
+
