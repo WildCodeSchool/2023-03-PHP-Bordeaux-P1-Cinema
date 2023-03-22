@@ -20,7 +20,9 @@
     border-radius: 30px;
     box-shadow: 5px 5px 15px 5px #000000;
 }
-
+.a img {
+    margin-bottom: 50px;
+}
 .movieDescription {
     display: flex;
     align-items: flex-start;

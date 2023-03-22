@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-movie.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-movie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-schedule.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-schedule.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-slide.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creed3.php" beforeDir="false" afterPath="$PROJECT_DIR$/creed3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +78,7 @@
       <workItem from="1679046055523" duration="9472000" />
       <workItem from="1679325519457" duration="1858000" />
       <workItem from="1679327737982" duration="30737000" />
-      <workItem from="1679489145941" duration="12521000" />
+      <workItem from="1679489145941" duration="13124000" />
     </task>
     <servers />
   </component>
