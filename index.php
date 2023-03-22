@@ -8,15 +8,10 @@
     <section class="oldMovieGallery">
         <h2>Nos classiques</h2>
         <article>
-            <?php  $OldMovies = [
-                "matrix.jpg"=>"Affiche du film Matrix",
-                "GoneWithTheWind.jpg"=>"Affiche du film Autant en emporte le vent",
-                "terminator2.jpg"=>"Affiche du film Terminator 2",
-                "the5Element.jpg"=>"Affiche du film le 5e Elément"];
-            foreach ($OldMovies as $key=>$alt) : ?>
-                <img src="../../assets/images/<?= $key ?>" alt="<?= $alt ?>">
-
-            <?php endforeach; ?>
+            <img src="assets/images/terminator2.jpg">
+            <img src="assets/images/the5Element.jpg">
+            <img src="assets/images/matrix.jpg">
+            <img src="assets/images/Autant%20en%20emporte%20le%20vent_0002.jpg">
         </article>
         <!---------------End of Classic Movie----------->
     </section>
