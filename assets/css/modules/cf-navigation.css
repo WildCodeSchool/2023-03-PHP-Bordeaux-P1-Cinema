@@ -59,12 +59,14 @@
 
 }
 
-input.searchInput[type="text"] {
+input.search-box[type="text"] {
     border: none;
     padding: 5px;
     margin-right: 10px;
     font-size: 16px;
     border-radius: 10px;
+
+
 }
 
 .search button[type="submit"] {
