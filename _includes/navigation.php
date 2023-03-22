@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/modules/cf-variables.css">
+    <link rel="stylesheet" href="../assets/css/modules/cf-about.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-navigation.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-index.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-slide.css">
