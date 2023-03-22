@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+<form>
+	<input type="text" id="searchBox">
+	<input type="submit" onclick="return search;" value="search">
+</form>
+ 
+<script>
+function search(e) {
+	var pages=Array(
+		["Avatar","avatar.php"],
+		["avatar","avatar.php"],
+		["AVATAR","avatar.php"],
+		["creed 3","creed3.php"],
+		["creed three","creed3.php"],
+=======
 function search(e) {
     var pages=Array(
         ["Avatar","avatar.php"],
@@ -5,6 +20,7 @@ function search(e) {
         ["AVATAR","avatar.php"],
         ["creed 3","creed3.php"],
         ["creed three","creed3.php"],
+>>>>>>> 91bbed147b7e045b013cc302d50dd9e1b5407c7c
         ["Creed three","creed3.php"],
         ["creed Three","creed3.php"],
         ["Creed Three","creed3.php"],
@@ -26,6 +42,25 @@ function search(e) {
         ["scream Six","scream6.php"],
         ["Scream Six","scream6.php"],
         ["Scream six","scream6.php"],
+<<<<<<< HEAD
+        ["SCREAM SIX","scream6.php"]
+
+
+        
+
+	);
+	var page=document.getElementById("page").value;
+	for(var i=0;i<pages.length;i++) {
+		if(page==pages[i][0]) {
+			window.location.href=pages[i][1];
+			return false;
+		}
+	}
+	window.location.href="error.php";
+	return false;
+}
+</script>
+=======
         ["SCREAM SIX","scream6.php"]    );
     var page=document.getElementById("page").value;
     for(var i=0;i<pages.length;i++) {
@@ -37,3 +72,4 @@ function search(e) {
     window.location.href="error.php";
     return false;
 }
+>>>>>>> 91bbed147b7e045b013cc302d50dd9e1b5407c7c
