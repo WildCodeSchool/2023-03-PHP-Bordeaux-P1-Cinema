@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7316b36-0d85-4233-8be2-4c514001d710" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/modules/film.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/modules/cf-slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/cf-slide.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javaScript/searchBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javaScript/searchBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies.php" beforeDir="false" afterPath="$PROJECT_DIR$/movies.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -82,7 +84,7 @@
       <workItem from="1678974687609" duration="15213000" />
       <workItem from="1679046055523" duration="9472000" />
       <workItem from="1679325519457" duration="1858000" />
-      <workItem from="1679327737982" duration="17391000" />
+      <workItem from="1679327737982" duration="23667000" />
     </task>
     <servers />
   </component>

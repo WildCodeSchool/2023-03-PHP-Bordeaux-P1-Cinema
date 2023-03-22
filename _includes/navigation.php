@@ -35,11 +35,11 @@
         </div>
         <div class="links">
             <ul>
-                <li><a href="../index.php">Accueil</a></li>
-                <li><a href="../movies.php">Films</a></li>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="movies.php">Films</a></li>
                 <img src="../assets/images/logoDefinitif.png" alt="Logo" class="logo2">
-                <li><a href="../schedule.php">Horaires</a></li>
-                <li><a href="../about.php">Contacts</a></li>
+                <li><a href="schedule.php">Horaires</a></li>
+                <li><a href="about.php">Contacts</a></li>
             </ul>
         </div>
     </nav><!--Fin de navbar-->

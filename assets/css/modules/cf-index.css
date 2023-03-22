@@ -54,18 +54,15 @@ article {
 h2{
     text-align: center;
     color: #e51937;
+    font-size: xx-large;
 }
 
-
-
-
-
 @media screen and (min-width: 767px){
-    #home{background: url("../../images/background-scream.jpeg") no-repeat top center ;background-size: 90%;height:50vh;min-width:100vw}
+    #backgroundMovie{background: url("../../images/background-scream.jpeg") no-repeat top center ;background-size: cover;height:50vh;min-width:100vw}
 
 }
 @media screen and (min-width: 968px){
-    #home{background: url("../../images/background-scream.jpeg") no-repeat top center ;background-size: 90%;height:60vh;min-width:100vw}
+    #backgroundMovie{background: url("../../images/background-scream.jpeg") no-repeat top center ;background-size: cover;height:60vh;min-width:100vw}
     .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
     .contactDetails article:first-child{width: 59% ;}
     .contactDetails article:nth-child(2){width: 35% ;}
@@ -74,12 +71,4 @@ h2{
     .contactGallery article{width: 100% ;margin:12px 0;flex-direction:row;justify-content: space-between;flex-wrap: wrap}
     .contactGallery h2{width: 100% ;text-align: right}
     .contactGallery article img{width: 25% ;height: auto; margin-top:12px}
-}
-@media screen and (min-width: 1200px) {
-    #about {
-        background: url("../../images/background-scream.jpeg") no-repeat top center;
-        background-size: cover;
-        height: 75vh;
-        width: 100vw
-    }
 }
