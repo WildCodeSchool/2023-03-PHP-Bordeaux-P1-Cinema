@@ -61,24 +61,36 @@ a li {
   
   /*DESKTOP : en colonne sur la gauche*/
   /*MOBILE page FILMS : au-dessus de la NAVBAR et en-dessous PROMO*/
-.regulations {
-  height: 4vh;
+
+  .regulations {
+  height: 3vh;
   width: 100%;
+  
+  /*
   margin-left: 10%;  
-  margin-right: -30%;  
+  margin-right: -50%;
+  */
 }
-    
+
+/*
+.regulations ul {
+  height: 3vh;
+  align-items: center;
+  margin-left: auto;  
+  margin-right: auto;
+}*/
+
 .regulationsOne, .regulationsTwo, .regulationsThree {
-  padding-top: 30px;
-  margin: 20px;
+  padding-top: 0px; /*previously: 20px*/
+  margin: 10px;
 }
 
 
   /*DESKTOP : en colonne sur la droite*/
 .socialNetworks {
   height: 10vh;
-  width: 50%;
-  margin-right: -15%;
+  width: 50%; /*100%*/
+  margin-right: -15%; /*0%*/
 }
 
 /*RESPONSIVE*/
@@ -107,6 +119,7 @@ a li {
 @media screen and (max-width: 600px) {
   .arrowFooter, .copyrightFooter {
     display: none;
+    
   } 
 
   .socialNetworks {
