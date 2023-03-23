@@ -1,8 +1,3 @@
-* {
-  box-sizing:border-box;
-  padding: 0;
-  margin: 0;
-}
 body {
   font-family: var(--main-font);
 }
@@ -10,6 +5,7 @@ body {
 footer {
   width: 100%;
   height: 100px;
+  margin-top: 5%;
 }
 
 a {
@@ -20,7 +16,6 @@ a {
 ul {
   display: flex;
   list-style-type: none;
-  padding-top: 80px;
 }
 
 .copyrightFooter {
@@ -29,7 +24,6 @@ ul {
   color:var(--link-color);
   font-size: 1.5em;
   font-family: "Bebas neue", Arial, serif;
-  bottom: 0;
 }
 /* --------REGULATIONS--------*/
 .regulations {

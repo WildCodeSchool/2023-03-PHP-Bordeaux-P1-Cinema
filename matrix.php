@@ -21,9 +21,9 @@
     </div>
 </div>
 
-<h2>Galerie</h2>
+<!-----<h2>Galerie</h2>
 <!---- Start of gallery------>
-<div class="pictureGallery">
+<!------<div class="pictureGallery">
     <img src="assets/capture/snapshot-1590662613.jpeg" alt="personnages-terminator">
     <img src="assets/capture/MV5BMjAxNzc2ODE2NF5BMl5BanBnXkFtZTcwMzU3MTIxNA@@._V1_.jpg" alt="enfant qui nage-avatar">
     <img src="assets/capture/MV5BMTU5NTA0OTIxNF5BMl5BanBnXkFtZTcwNjI4MTc4Mw@@._V1_.jpg" alt="guerre-avatar">
@@ -32,5 +32,4 @@
     <img src="assets/capture/keanu-reeves-the-matrix-code.jpg" alt="personnages qui volent-avatar">
 </div>
 <!------- End of gallery------->
-<?php include "_includes/footer.php";
-?>
+<?php include "_includes/footer.php";?>

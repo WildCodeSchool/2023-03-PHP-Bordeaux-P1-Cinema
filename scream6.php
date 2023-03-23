@@ -22,9 +22,9 @@
     </div>
 </div>
 <!----------End of movie description------->
-<h2>Galerie</h2>
+<!-----<h2>Galerie</h2>
 <!---- Start of gallery------>
-<div class="pictureGallery">
+<!-----<div class="pictureGallery">
     <img src="assets/capture/scream1.jpg" alt="personnages-avatar">
     <img src="assets/capture/scream2.jpg" alt="enfant qui nage-avatar">
     <img src="assets/capture/scream3.jpeg" alt="guerre-avatar">
@@ -33,6 +33,4 @@
     <img src="assets/capture/scream-6-2023-movie-picture-06-1068x712.jpg" alt="personnages qui volent-avatar">
 </div>
 <!------- End of gallery------->
-<?php
-include "_includes/footer.php";
-?>
+<?php include "_includes/footer.php";?>

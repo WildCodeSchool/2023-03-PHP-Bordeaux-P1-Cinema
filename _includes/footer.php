@@ -18,11 +18,10 @@
                 <li><a href="https://www.instagram.com"><img src="../assets/images/instagram-removebg-preview.png" alt="Instagram" height=30px></a></li>
             </ul>
         </div>
+        <!----------End of social network------------------>
     </section>
-    <!------------End of social network------------------>
-
-    <p class="copyrightFooter">&copy The Wild Cinema</p>
 </footer>
+<p class="copyrightFooter">&copy The Wild Cinema</p>
 <script src="assets\js\script.js"></script>
 <script src="assets\js\SearchBox.js"></script>
 </body>

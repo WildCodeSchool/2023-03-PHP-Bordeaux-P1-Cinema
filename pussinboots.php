@@ -23,9 +23,9 @@
 </div>
 <!----------End of movie description------->
 
-<h2>Galerie</h2>
+<!-----<h2>Galerie</h2>
 <!---- Start of gallery------>
-<div class="pictureGallery">
+<!------<div class="pictureGallery">
     <img src="assets/capture/chat1.jpeg" alt="personnages-avatar">
     <img src="assets/capture/chat2.jpeg" alt="enfant qui nage-avatar">
     <img src="assets/capture/chat3.jpeg" alt="guerre-avatar">
@@ -34,6 +34,4 @@
     <img src="assets/capture/fde1a2ac5c.jpg" alt="le méchant">
 </div>
 <!------- End of gallery------->
-<?php
-include "_includes/footer.php";
-?>
+<?php include "_includes/footer.php";?>

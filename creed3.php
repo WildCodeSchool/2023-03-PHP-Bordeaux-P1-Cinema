@@ -24,9 +24,9 @@
     </div>
 </div> <!----------END OF TECHNICAL SHEET------->
 
-<h2>Galerie</h2>
+<!-----<h2>Galerie</h2>
 <!---- Start of gallery------>
-<div class="pictureGallery">
+<!-----<div class="pictureGallery">
     <img src="assets/capture/3-2-1024x576.jpg" alt="personnages-terminator">
     <img src="assets/capture/0217fe3_1678181293153-telerama-016262-007.jpg" alt="enfant qui nage-avatar">
     <img src="assets/capture/anderson-dame-jonathan-majors-creed-3-scaled.jpeg" alt="guerre-avatar">
@@ -34,7 +34,4 @@
     <img src="assets/capture/Creed-2-image.jpg" alt="viewpoint-avatar">
     <img src="assets/capture/creed-iii.jpg" alt="personnages qui volent-avatar">
 </div>
-<!------- End of gallery------->
-<?php
-include "_includes/footer.php";
-?>
+<?php include "_includes/footer.php";?>

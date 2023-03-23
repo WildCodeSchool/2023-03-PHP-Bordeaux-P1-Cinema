@@ -26,4 +26,4 @@
         <img src="assets/images/1043282.jpg" alt="chemin noir-affiche">
     </div><!------- End of preview movie------->
 </section>
-<?php include "_includes/footer.php"; ?>
+<?php include "_includes/footer.php";?>
