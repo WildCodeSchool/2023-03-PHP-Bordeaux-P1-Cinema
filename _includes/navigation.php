@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="../assets/css/modules/cf-footer.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-movie.css">
     <link rel="stylesheet" href="../assets/css/modules/cf-film.css">
-
 </head>
+
 <body>
 <!-- header -->
-<header id="home">
+<header>
     <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">
@@ -27,7 +27,7 @@
         <div class="search">
             <form>
                 <input class= "search-box" type="text" id="search-box" placeholder="Rechercher...">
-                <button type="submit" id="search-btn">OK</button>
+                <button type="submit" id="search-btn" onclick="return search();">OK</button>
                 <script src="../assets/javaScript/searchBox.js"></script>
             </form>
             <ul class="results">

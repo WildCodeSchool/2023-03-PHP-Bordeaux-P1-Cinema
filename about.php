@@ -1,11 +1,11 @@
 <?php include "_includes/navigation.php" ?>
     <!--Début de la page About-->
-<section id="about"></section>
+<section id="about">
+</section>
         <!--Début du texte de présentation-->
         <section class ="cinemaStory">
-            <p>Le Wild Cinéma est né grâce à un homme, un grand amoureux des grands films : Jean Wild. Le petit Jean a vu le jour dans une petite ville nommée Bordeaux, et a baigné dans la culture cinématographique grâce à son grand-père.</p>
-            <p>Trois ans avant l'ouverture du cinéma, en 1903, Jean Wild était devenu un grand homme, il décida de retrouver le lieu exact de sa naissance pour ériger un édifice à sa mesure. Après de nombreuses recherches c'est ici au ... que cet édifice est né.</p>
-            <p>Grâce à quels députés corrompus, Jean obtient le permis de construire.Le cinéma est monté petit à petit, pierre par pierre. Mais après quelques ouvriers morts d'épuisement et des fusiades de part et d'autre, Jean Wild est fier de vous accueillir dans son magnifique cinéma !</p>
+            <p class="slogan"> "The Wild Cinema est un cinéma associatif crée par la WILD CODE SCHOOL le 28 février 2023.
+                JS, DATA ANALYST et PHP ont travaillés main dans la main afin de proposer des films actuels ainsi que des films intergénérationels, à des tarifs qui ne connaissent pas l’inflation!"</p>
         </section>
 
         <section class="contactDetails">
@@ -14,7 +14,7 @@
             </article>
 
             <article>
-                <h2>Coordonnées</h2>
+                <h3>Coordonnées</h3>
                 <p>THE WILD CINEMA</p>
                 <p>171 rue Laucien Faure , 33300 Bordeaux</p>
 
@@ -24,7 +24,7 @@
                 <p>répondeur :<a href="tel:+33556782661"> 05 56 78 26 61 </a></p>
 
 
-                <h2>Tarifs</h2>
+                <h3>Tarifs</h3>
                 <p>Tarif plein – 7,50€</p>
                 <p>Tarif réduit – 5,80€ (Moins de 18 ans, étudiants, séniors (+ de 65 ans), handicapés (+ un accompagnateur), familles nombreuses, demandeurs d’emploi, (Justificatifs obligatoires)</p>
                 <p>Tarif -14ans & RSA – 4€ (Justificatifs obligatoires)</p>
@@ -34,7 +34,7 @@
 
         </section>
     <section class="contactGallery">
-        <h2>Nos salles</h2>
+        <h3>Nos salles</h3>
         <article>
             <?php  $halls = [
                 "royalRoom"=>"La salle royal de The Wild Cinema",
