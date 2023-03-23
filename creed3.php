@@ -11,7 +11,7 @@
 <!----------TECHNICAL SHEET------->
     <section>
 <div class="movieDescription">
-    <img class="moviePoster" src ="assets/images/Capture d’écran 2023-03-09 à 19.09.27.png" alt="affiche-film-Creed 3">
+    <img class="moviePoster" src ="assets/images/Capture d’écran 2023-03-09 à 19.09.27.png" alt="affiche-film-Creed 3">
     <div class ="synopsis">
         <h2>Synopsis</h2>
         <p>Idole de la boxe et entouré de sa famille, Adonis Creed n’a plus rien à prouver. Jusqu’au jour où son ami d’enfance, Damian, prodige de la boxe lui aussi, refait surface. A peine sorti de prison, Damian est prêt à tout pour monter sur le ring et reprendre ses droits. Adonis joue alors sa survie, face à un adversaire déterminé à l’anéantir.</p>
@@ -24,9 +24,9 @@
     </div>
 </div> <!----------END OF TECHNICAL SHEET------->
 
-<h2>Galerie</h2>
-<!---- Start of gallery------>
-<div class="pictureGallery">
+<!--<h2>Galerie</h2>
+<!- Start of gallery------>
+<!--<div class="pictureGallery">
     <img src="assets/capture/3-2-1024x576.jpg" alt="personnages-terminator">
     <img src="assets/capture/0217fe3_1678181293153-telerama-016262-007.jpg" alt="enfant qui nage-avatar">
     <img src="assets/capture/anderson-dame-jonathan-majors-creed-3-scaled.jpeg" alt="guerre-avatar">
@@ -34,7 +34,6 @@
     <img src="assets/capture/Creed-2-image.jpg" alt="viewpoint-avatar">
     <img src="assets/capture/creed-iii.jpg" alt="personnages qui volent-avatar">
 </div>
-<!------- End of gallery------->
-<?php
-include "_includes/footer.php";
-?>
+<!- End of gallery------->
+
+<?php include "_includes/footer.php";?>

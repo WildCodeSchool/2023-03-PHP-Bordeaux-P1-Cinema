@@ -25,17 +25,16 @@
 </div>
 
 <!----------End of movie description------->
-<h2>Galerie</h2>
-    <!---- Start of gallery------>
-    <div class="pictureGallery">
-        <img src="assets/capture/640611b61a5bf_2236421.jpg" alt="personnages-avatar">
-        <img src="assets/capture/870x489_sc_mon-crime-ozon.jpg" alt="enfant qui nage-avatar">
-        <img src="assets/capture/870x489_photo-04.jpg" alt="guerre-avatar">
-        <img src="assets/capture/B9733489904Z.1_20230217165047_000+GARM7RVN2.2-0.jpg" alt="personnages qui volent-avatar">
-        <img src="assets/capture/2940301_1678786575288-telerama-016266-012.jpg" alt="viewpoint-avatar">
-        <img src="assets/capture/mon-crime-3.jpeg" alt="personnages qui volent-avatar">
-    </div>
-    <!------- End of gallery------->
-<?php
-include "_includes/footer.php";
-?>
+<!--<h2>Galerie</h2>
+    <!- Start of gallery------>
+<!-- <div class="pictureGallery">
+     <img src="assets/capture/640611b61a5bf_2236421.jpg" alt="personnages-avatar">
+     <img src="assets/capture/870x489_sc_mon-crime-ozon.jpg" alt="enfant qui nage-avatar">
+     <img src="assets/capture/870x489_photo-04.jpg" alt="guerre-avatar">
+     <img src="assets/capture/B9733489904Z.1_20230217165047_000+GARM7RVN2.2-0.jpg" alt="personnages qui volent-avatar">
+     <img src="assets/capture/2940301_1678786575288-telerama-016266-012.jpg" alt="viewpoint-avatar">
+     <img src="assets/capture/mon-crime-3.jpeg" alt="personnages qui volent-avatar">
+ </div>
+ <!- End of gallery------->
+
+<?php include "_includes/footer.php";?>

@@ -29,9 +29,9 @@
 </div>
 
 <!----------End of movie description------->
-<h2>Galerie</h2>
-<!---- Start of gallery------>
-<div class="pictureGallery">
+<!--<h2>Galerie</h2>
+<-- Start of gallery------>
+<!--<div class="pictureGallery">
     <img src="assets/capture/076_CHL_162001.jpg" alt="personnages-terminator">
     <img src="assets/capture/luc_besson_cover_4337.jpeg" alt="enfant qui nage-avatar">
     <img src="assets/capture/cinquieme-element-tapette-dejantee.jpg" alt="guerre-avatar">
@@ -39,8 +39,6 @@
     <img src="assets/capture/768x492_image-film-cinquieme-element-luc-besson.jpeg" alt="viewpoint-avatar">
     <img src="assets/capture/014-The-Fifth-Element-Fashion-in-Film-Vogueint-Feb21-Alamy.jpg" alt="personnages qui volent-avatar">
 </div>
-<!------- End of gallery------->
+<!- End of gallery------->
 
-<?php
-include "_includes/footer.php";
-?>
+<?php include "_includes/footer.php";?>

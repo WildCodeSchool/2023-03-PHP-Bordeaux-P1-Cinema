@@ -23,9 +23,9 @@
     </div>
 </div>
 <!----------End of movie description------->
-<h2>Galerie</h2>
-<!---- Start of gallery------>
-<div class="pictureGallery">
+<!--<h2>Galerie</h2>
+<!- Start of gallery------>
+<!--<div class="pictureGallery">
     <img src="assets/capture/d6c2a4b_13614-1axqegn.86rqvholxr.jpg" alt="personnages-terminator">
     <img src="assets/capture/terminator-2-arnold-schwarzenegger.jpg" alt="enfant qui nage-avatar">
     <img src="assets/capture/85475547.jpeg" alt="guerre-avatar">
@@ -33,7 +33,6 @@
     <img src="assets/capture/arnold-schwarzenegger-photo-terminator-996327.jpg" alt="viewpoint-avatar">
     <img src="assets/capture/Terminator3T800.jpg" alt="personnages qui volent-avatar">
 </div>
-<!------- End of gallery------->
-<?php
-include "_includes/footer.php";
-?>
+<!- End of gallery------->
+
+<?php include "_includes/footer.php";?>
