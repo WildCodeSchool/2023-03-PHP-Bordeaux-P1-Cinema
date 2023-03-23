@@ -1,11 +1,9 @@
 <footer>
-    <!-- DESKTOP : flèche (en haut centrée) ; MOBILE : absence-->
-    <div> <!-- Mettre ID ancre dans "navigation.php" retour en HAUT de la page-->
+    <!-------------Arrow---------->
+    <div>
         <p class="arrowFooter"><a href="#">&#9650</a></p>
-    </div>
-
-    <div class="footer">
-        <!-- DESKTOP * pages : à droite ; MOBILE pages INDEX & FILMS : en ligne centré ; MOBILE page CONTACT : en colonne centré -->
+    </div> <!-------------End of Arrow---------->
+    <!--------------Legal request--------------->
         <div class="regulations">
             <ul>
                 <li class="regulationsOne"><a href="#">CGU</a></li>
@@ -13,16 +11,16 @@
                 <li class="regulationsThree"><a href="#">POLITIQUE</a></li>
             </ul>
         </div>
+    <!------------End of legal request------------------>
 
         <!-- DESKTOP: à gauche ; MOBILE : absence-->
         <div class="socialNetworks">
             <ul>
-                <li><a href="#"><img src="../assets/images/logo_facebook.png" alt="Facebook" height=30px></a></li>
-                <li><a href="#"><img src="../assets/images/logo_twitter.png" alt="Twitter" height=30px></a></li>
-                <li><a href="#"><img src="../assets/images/logo_instagram.png" alt="Instagram" height=30px></a></li>
+                <li><a href="https://www.facebook.com"><img src="../assets/images/facebook-removebg-preview.png" alt="Facebook" height=30px></a></li>
+                <li><a href="https://twitter.com/?lang=fr"><img src="../assets/images/twitter-removebg-preview.png" alt="Twitter" height=30px></a></li>
+                <li><a href="https://www.instagram.com"><img src="../assets/images/instagram-removebg-preview.png" alt="Instagram" height=30px></a></li>
             </ul>
         </div>
-    </div>
     <!-- DESKTOP : copyright (en bas centré) ; MOBILE page CONTACT : centré entre .regulations et NAVBAR-->
 
     <div>
