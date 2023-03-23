@@ -1,4 +1,3 @@
-git pull
 <section class="slider">
 
   <div class="container">
@@ -21,11 +20,9 @@ git pull
           </div>
           <div class="infos">
             <span class="name">Avatar</span>
-            <span class="lorem">Lorem ipsum dolor sit amet, sit amet  adipiscing elit. Aenean vel ansd . Nullam
-              lorem. Nulla eu
-              sodales</span>
+            <span class="lorem">EN SALLE DEPUIS LE 29/03/2023</span>
           </div>
-          <a href="avatar.php" class="btn-contact">Afficher ce film</a>
+          <a href="avatar.php" class="btn-contact"> Afficher</a>
           <div class="socials">
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-regular fa-heart"></i>
@@ -47,11 +44,9 @@ git pull
           </div>
           <div class="infos">
             <span class="name">Creed 3</span>
-            <span class="lorem">Lorem ipsum dolor sit, adipiscing elit. Aenean vel sit ansd . Nullam
-              lorem. Nulla eu
-              sodales karma stellus</span>
+            <span class="lorem">EN SALLE DEPUIS LE 16/03/2023</span>
           </div>
-          <a href="creed3.php" class="btn-contact">Afficher ce film</a>
+          <a href="creed3.php" class="btn-contact"> Afficher</a>
           <div class="socials">
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-regular fa-heart"></i>
@@ -73,10 +68,9 @@ git pull
           </div>
           <div class="infos">
             <span class="name">Mon Crime</span>
-            <span class="lorem">Lorem ipsum dolor, sit amet let kar adipiscing. Aenean vel velit sit ansd . Nullam
-              lorem. Nulla karma stellus</span>
+            <span class="lorem">EN SALLE DEPUIS LE 12/03/2023</span>
           </div>
-          <a href="moncrime.php" class="btn-contact">Afficher ce film</a>
+          <a href="moncrime.php" class="btn-contact"> Afficher</a>
           <div class="socials">
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-regular fa-heart"></i>
@@ -98,10 +92,9 @@ git pull
           </div>
           <div class="infos">
             <span class="name">Puss In Boots</span>
-            <span class="lorem">Lorem ipsum dolor sit, sit amet elit. Aenean sit amet sit amet vel velit sit ansd. Nulla eu
-              sodales stellus</span>
+            <span class="lorem">EN SALLE DEPUIS LE 01/03/2023</span>
           </div>
-          <a href="pussinboots.php" class="btn-contact">Afficher ce film</a>
+          <a href="pussinboots.php" class="btn-contact"> Afficher</a>
           <div class="socials">
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-regular fa-heart"></i>
@@ -123,11 +116,9 @@ git pull
           </div>
           <div class="infos">
             <span class="name">Scream 6</span>
-            <span class="lorem">Lorem ipsum sit amet, sit amet elit. Aenean vel velit ansd . Nullam
-              lorem. Nulla eu
-              sodales stellus</span>
+            <span class="lorem">EN SALLE DEPUIS LE 05/04/2023</span>
           </div>
-          <a href="scream6.php" class="btn-contact">Afficher ce film</a>
+          <a href="scream6.php" class="btn-contact"> Afficher</a>
           <div class="socials">
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-regular fa-heart"></i>

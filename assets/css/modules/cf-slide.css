@@ -4,13 +4,16 @@
     justify-content: center;
     overflow-x: hidden;
     height: 100vh;
+    width: 100%;
     font-family: 'Urbanist', sans-serif;
 }
 
 a{
 
     text-decoration: none;
+
 }
+
 
 input.d-none {
 
@@ -33,8 +36,8 @@ input.d-none {
 .cards {
 
     position: relative;
-    height: 490px;
-    width: 430px;
+    height: 800px;
+    width: 560px;
     margin-bottom: 20px;
     perspective: 1000px;
     transform-style: preserve-3d;
@@ -56,7 +59,8 @@ input.d-none {
 
     position: relative;
     height: 100%;
-    background-color: rgba(222, 6, 6, 0.933);
+    width:100%;
+    background-color: black;
     border-radius: 10px;
     padding: 30px 35px;
     transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -101,12 +105,12 @@ input.d-none {
 
 .dots div:nth-child(2){
 
-    background-color: rgba(222, 6, 6, 0.933);
+    background-color: rgba(0, 0, 0);
 }
 
 .dots div:nth-child(3){
 
-    background-color: #000;
+    background-color:rgb(0, 0, 0);
 }
 
 .card .infos{
@@ -119,36 +123,42 @@ input.d-none {
 .infos span{
 
     display: block;
+    
 }
 
 .infos .name{
 
-    font-size: 30px;
-    color: var(--current-color1);
+    font-size: 25px;
+    color: white;
     letter-spacing: 8px;
     margin-bottom: 20px;
-    padding-left: 25%;
     transition: all .6s ease;
-}
+    
 
+    
+}
+a.btn-contact{
+    border: 2px solid gold;
+   
+}
 .infos .lorem{
 
     font-size: 15.5px;
-    color: #ECEAED;
+    color: #be0e0e;
     letter-spacing: 3px;
 }
 
 .card .btn-contact{
 
-    width: 100%;
+    width: 60%;
     height: 60px;
     margin: 35px auto;
     border-radius: 5px;
-    background-color: var(--current-color1);
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color:gold;
     font-size: 25px;
     letter-spacing: 10px;
     font-weight: 700;
@@ -179,7 +189,7 @@ input.d-none {
 #s5:checked~.cards #slide3 {
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 45%);
     transform: translate3d(-70%, 0, -220px);
-    --current-color1: #ECEAED;
+    --current-color1: #000000;
     --current-color2: rgba(222, 6, 6, 0.933);
     opacity: 0.6;
 }
@@ -191,8 +201,9 @@ input.d-none {
 #s5:checked~.cards #slide4 {
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
     transform: translate3d(-35%, 0, -120px);
-    --current-color1: #ECEAED;
+    --current-color1: #000000;
     --current-color2: rgba(0, 0, 0, 0.933);
+    opacity: 0.95;
     
 }
 
@@ -204,7 +215,7 @@ input.d-none {
     box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 50%);
     transform: translate3d(0, 0, 0);
     --current-color1: black;
-    --current-color2: #ECEAED;
+    --current-color2: white;
 }
 
 #s1:checked~.cards #slide2,
@@ -214,8 +225,9 @@ input.d-none {
 #s5:checked~.cards #slide1 {
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
     transform: translate3d(35%, 0, -120px);
-    --current-color1: #ECEAED;
+    --current-color1: #000000;
     --current-color2:rgba(0, 0, 0, 0.933);
+    opacity: 0.97;
     
 }
 
@@ -226,8 +238,9 @@ input.d-none {
 #s5:checked~.cards #slide2 {
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 45%);
     transform: translate3d(70%, 0, -220px);
-    --current-color1: #ECEAED;
+    --current-color1: #000000;
     --current-color2: rgba(222, 6, 6, 0.933);
+    opacity: 0.6;
    
 
  }
