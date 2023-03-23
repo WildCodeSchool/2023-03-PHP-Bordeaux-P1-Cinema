@@ -23,6 +23,7 @@
 
     <p class="copyrightFooter">&copy The Wild Cinema</p>
 </footer>
-<script src="../assets/js/script.js"></script>
+<script src="assets\js\script.js"></script>
+<script src="assets\js\SearchBox.js"></script>
 </body>
 </html>
