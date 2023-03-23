@@ -12,7 +12,7 @@
     <img class="moviePoster" src ="assets/images/Capture d’écran 2023-03-15 à 20.37.14.jpeg" alt="affiche-film-Chat potté 2">
     <div class ="synopsis">
         <h2>Synopsis</h2>
-        <p>Le Chat botté découvre que sa passion pour l'aventure et son mépris du danger lui ont coûté cher : il a épuisé huit de ses neuf sans s'en rendre compte. Afin de se remettre sur pied, notre héros poilu se lance littéralement dans la quête de sa vie. Il s'embarque dans une aventure épique aux confins de la Forêt Noire afin de dénicher la mythique étoile magique, la seule chose qui puisse lui rendre ses vies perdues.</p>
+        <p>Le Chat botté découvre que sa passion pour l'aventure et son mépris du danger lui ont coûté cher : il a épuisé huit de ses neuf sans s'en rendre compte.<br> Afin de se remettre sur pied, notre héros poilu se lance littéralement dans la quête de sa vie. Il s'embarque dans une aventure épique aux confins de la Forêt Noire afin de dénicher la mythique étoile magique, la seule chose qui puisse lui rendre ses vies perdues.</p>
     </div>
     <div class="casting">
         <h2>Casting</h2>
