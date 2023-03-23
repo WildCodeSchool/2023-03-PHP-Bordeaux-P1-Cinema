@@ -36,13 +36,25 @@ p{
 .oldMovieGallery article img{
     width: 20% ;
     height: auto;
-    margin-top:12px;
+    margin-top:50px;
     border-radius: 30px;
     box-shadow: 5px 5px 15px 5px #000000;
 }
+.food{
+    margin-top: 50px;
+}
 .promotion {
     margin-top: 50px;
-    max-height: 500px;
+    margin-left: 30px;
+    max-height: 300px;
+    opacity: 0.80;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.mcdo {
+    margin-top: 50px;
+    margin-left: 100px;
+    max-height: 300px;
     opacity: 0.80;
     border-radius: 30px;
     box-shadow: 5px 5px 15px 5px #000000;
@@ -53,15 +65,22 @@ article {
 h2{
     text-align: center;
     color: #e51937;
-    font-size: xx-large;
+    font-size: 56;
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+    color: #e51937;
+    font-size: 36;
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 767px){
-    #backgroundMovie{background: url("../../background/screamTop.jpg") no-repeat top center;height:50vh;background-size: cover;min-width:100vw}
+    #backgroundMovie{background: url("../../background/screamTop.jpg") no-repeat top center;height: 407px;background-size: cover;min-width:100vw}
 
 }
 @media screen and (min-width: 968px){
-    #backgroundMovie{background: url("../../background/screamTop.jpg") no-repeat top center ;background-size: cover;height:60vh;min-width:100vw}
+    #backgroundMovie{background: url("../../background/screamTop.jpg") no-repeat top center ;background-size: cover;height: 600px;min-width:100vw}
     .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
     .contactDetails article:first-child{width: 59% ;}
     .contactDetails article:nth-child(2){width: 35% ;}

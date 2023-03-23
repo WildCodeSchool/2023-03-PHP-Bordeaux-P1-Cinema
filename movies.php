@@ -8,6 +8,7 @@
         <a href="pussinboots.php"><img src="assets/images/pussInBootsTwo.png"></a>
         <a href="moncrime.php"><img src="assets/images/Mon_Crime.jpg"></a>
         <a href="scream6.php"><img src="assets/images/scream6.jpeg"></a>
+        <a href="#"><img src="assets/images/0046242.jpeg"></a>
     </div><!------- End of box office------->
     <!------- start of classic movie------->
 <h2 class="titleMovie">Nos classiques</h2>

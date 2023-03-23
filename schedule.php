@@ -123,5 +123,4 @@
             <td>20:30</td>
             <td>21:00</td>
         </tr>
-
-        <img class="popcorn" src="assets/images/Popcorn-PNG-Photo-Image.png">
+    </table>
