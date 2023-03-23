@@ -42,3 +42,7 @@ h2 {
     text-align: center;
     color : #e51937;
 }
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+}
