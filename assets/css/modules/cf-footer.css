@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
 }
-     
+
 body {
   background-color:var(--background-color);
   color: var(--text-color);
@@ -14,7 +14,8 @@ body {
 
 footer {
   background-color: var(--background-color);
-
+  width: 100%;
+  height: 100px;
 }
 
 a {
@@ -40,9 +41,9 @@ a li {
   height: 100px;
 }
 
-    /*DESKTOP : flèche (en haut centrée) ; MOBILE : absence ;
-    DESKTOP : copyright (en bas centré) ; MOBILE page CONTACT : centré entre .regulations et NAVBAR-->
-    CSS : flèche et copyright centrés*/
+/*DESKTOP : flèche (en haut centrée) ; MOBILE : absence ;
+DESKTOP : copyright (en bas centré) ; MOBILE page CONTACT : centré entre .regulations et NAVBAR-->
+CSS : flèche et copyright centrés*/
 .arrowFooter {
   display: flex;
   justify-content: center;
@@ -57,16 +58,17 @@ a li {
   padding-bottom: 15px;
   font-size: 1.5em;
 }
-  
-  /*DESKTOP : en colonne sur la gauche*/
-  /*MOBILE page FILMS : au-dessus de la NAVBAR et en-dessous PROMO*/
 
-  .regulations {
+/*DESKTOP : en colonne sur la gauche*/
+/*MOBILE page FILMS : au-dessus de la NAVBAR et en-dessous PROMO*/
+
+.regulations {
   height: 3vh;
   width: 100%;
-  
+  margin-left: 10vh;
+
   /*
-  margin-left: 10%;  
+  margin-left: 10%;
   margin-right: -50%;
   */
 }
@@ -75,68 +77,41 @@ a li {
 .regulations ul {
   height: 3vh;
   align-items: center;
-  margin-left: auto;  
+  margin-left: auto;
   margin-right: auto;
 }*/
 
 .regulationsOne, .regulationsTwo, .regulationsThree {
-  padding-top: 0px; /*previously: 20px*/
+  padding-top: 0; /*previously: 20px*/
   margin: 10px;
 }
 
 
-  /*DESKTOP : en colonne sur la droite*/
+/*DESKTOP : en colonne sur la droite*/
 .socialNetworks {
-  height: 10vh;
-  width: 50%; /*100%*/
-  margin-right: -15%; /*0%*/
+  height: 18vh;
+  border: yellow solid 2px;
 }
-
+footer .socialNetworks {
+  display : flex;
+  align-items: flex-end;
+}
 /*RESPONSIVE*/
 @media screen and (min-width: 768px) {
   .footer {
     height: 170px;
   }
-
-  .regulations ul {
-    display: flex; 
-    flex-direction: column;
-    align-items: flex-start;
-    width: 30%;
-  }
-  
-  /*DESKTOP .socialNetworks: en colonne sur la droite*/
-  .socialNetworks ul {
-    display: flex; 
-    flex-direction: column;
-    align-items: flex-end;
-    width: 40%;
-  }
-
 }
 
-@media screen and (max-width: 600px) {
-  .arrowFooter, .copyrightFooter {
-    display: none;
-    
-  } 
-
-  .socialNetworks {
-    display: none;
-    }
+.regulations ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
 }
 
-@media screen and (max-width: 320px) {
-  .regulations {
-    font-size: 0.8em;
-    text-decoration: none;
-  }
-
-  .regulationsOne, .regulationsTwo, .regulationsThree {
-    border: solid 1px grey;
-    padding: 3px 20px;
-    list-style-type: none;
-    justify-content: space-around;
-  }
+/*DESKTOP .socialNetworks: en colonne sur la droite*/
+.socialNetworks ul{
+  display: flex;
+  flex-direction: column;
 }
-
