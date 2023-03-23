@@ -49,7 +49,6 @@
     padding-right: 10px;
     display: block;
 }
-
 .search {
     margin-left: auto;
 }
@@ -57,7 +56,6 @@
 .search form {
     display: flex;
     align-items: center;
-
 }
 
 input.search-box[type="text"] {
@@ -66,8 +64,6 @@ input.search-box[type="text"] {
     margin-right: 10px;
     font-size: 16px;
     border-radius: 10px;
-
-
 }
 
 .search button[type="submit"] {
@@ -91,8 +87,6 @@ form {
     /* Styles de la liste de résultats */
 }
 
-
-
 @media only screen and (max-width: 768px) {
     .navbar {
         flex-direction: row;
@@ -105,9 +99,6 @@ form {
         display: flex;
         justify-items: center;
         padding: 5px 10px 5px 0;
-
-
-
     }
 
     .search {

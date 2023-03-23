@@ -124,3 +124,4 @@
             <td>21:00</td>
         </tr>
     </table>
+<?php include "_includes/footer.php";?>
