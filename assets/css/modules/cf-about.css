@@ -35,9 +35,11 @@ p{
 .cinemaStory{
     margin: 30px auto;
     width:80%;
-}
+    }
+
 .contactDetails,.contactGallery article{ display: flex;justify-content: center;flex-direction:column;width: 100% ;align-items: center}
 .carte-responsive iframe{width:100%;height:60vh;margin-bottom: 80px;}
+.carte-responsive {padding-top: 2%}
 h2{margin :12px 0;width: 100% ;color:var(--logo-color)}
 
 .contactGallery article img{width: 100% ;height: auto; margin-top:12px}
@@ -46,13 +48,18 @@ article p{color:var(--text-color);text-align: right}
 article {width: 80% ;}
 article h2{text-align: right}
 article h3{text-align: right}
+
 .slogan {
     font-size: 35px;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+
 }
 .cinemaStory {
     width:85%;
     justify-items: center;
-}
+    }
 .contactGallery article img{width:80%;margin-bottom:3%}
 
 /*fiche film*/
@@ -102,6 +109,10 @@ article h3{text-align: right}
     .contactGallery h2{width: 100% ;text-align: right}
     .contactGallery article img{width: 25% ;height: auto; margin-top:12px}
 }
+.contactGallery {
+    padding-top:2px;
+}
+
 @media screen and (min-width: 1200px) {
     #about {background: url("../../images/cinemaTop.jpg") no-repeat bottom;background-size: cover;}
     #creed3 {background: url("../../images/creedTop.jpg") no-repeat bottom;background-size: cover;}

@@ -65,7 +65,7 @@
         </tr>
         <tr class="grey-tab">
             <td>
-                <a href="pussinboots.php"><img src="assets/images/Capture d’écran 2023-03-15 à 20.37.14.jpeg" alt="affiche-film-Chat Potté 2" height="100px"></a>
+                <a href="pussinboots.php"><img src="assets/images/Capture d’écran 2023-03-15 à 20.37.14.jpeg" alt="affiche-film-Chat Potté 2" height="100px"></a>
             </td>
             <td><img src="assets/images/Capture_d_Ã©cran_2023-03-15_Ã _20.04.21-removebg-preview.png" height="100px"></td>
             <td>18:00</td>

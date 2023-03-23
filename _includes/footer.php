@@ -18,8 +18,15 @@
                 <li><a href="https://www.instagram.com"><img src="../assets/images/instagram-removebg-preview.png" alt="Instagram" height=30px></a></li>
             </ul>
         </div>
+<<<<<<< HEAD
         <!----------End of social network------------------>
     </section>
+=======
+    </section>
+    <!------------End of social network------------------>
+
+
+>>>>>>> c7a1516dbb65dd6d2f9595f92871ea456b1c09ee
 </footer>
 <p class="copyrightFooter">&copy The Wild Cinema</p>
 <script src="assets\js\script.js"></script>

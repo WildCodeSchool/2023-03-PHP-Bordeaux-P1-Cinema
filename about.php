@@ -46,6 +46,5 @@
             <?php endforeach; ?>
         </article>
     </section>
-<?php
-include "_includes/footer.php";
-?>
+
+<?php include "_includes/footer.php";?>
