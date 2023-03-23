@@ -29,9 +29,9 @@
         </div>
         <div class="search">
             <form>
-                <input class= "search-box" type="text" id="search-box" placeholder="Rechercher...">
-                <button type="submit" id="search-btn" onclick="return search();">OK</button>
-                <script src="../assets/javaScript/searchBox.js"></script>
+                <input class= "search-box" type="text" id="page" placeholder="Rechercher...">
+                <button type="submit"  onclick="return search();" value="search">OK</button>
+                <script src="assets\js\SearchBox.js"></script>
             </form>
             <ul class="results">
                 <!-- Résultats de la recherche seront ajoutés dynamiquement ici -->
