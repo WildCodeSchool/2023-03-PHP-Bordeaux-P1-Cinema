@@ -10,10 +10,11 @@ a{
 a:hover{
     color:var(--logo-color)
 }
-body{
+/*body{
     background-color:var(--background-color);
     overflow-x: hidden;
 }
+ */
 p{
     line-height:1.5;
 }
