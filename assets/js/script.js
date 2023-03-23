@@ -36,3 +36,11 @@ if(window.matchMedia("(min-width: 1200px)").matches){
 else if (window.matchMedia("(min-width: 10px)").matches) {
     homeBackground.style.backgroundImage="url('" + rand + "Small.jpg')";
 }
+
+
+
+
+
+
+
+
