@@ -76,7 +76,7 @@ h3{
 }
 
 @media screen and (min-width: 767px){
-    #backgroundMovie{background: url("../../background/screamTop.jpg") no-repeat top center;height: 407px;background-size: cover;max-width:100vw}
+    #backgroundMovie{background: url("../../background/screamTop.jpg") no-repeat top center;height: 407px;background-size: cover;min-width:100vw}
 
 }
 @media screen and (min-width: 968px){
