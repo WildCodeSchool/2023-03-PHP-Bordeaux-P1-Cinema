@@ -14,7 +14,8 @@ body {
 
 footer {
   background-color: var(--background-color);
-
+  width: 100%;
+  height: 100px;
 }
 
 a {
@@ -81,7 +82,7 @@ CSS : flèche et copyright centrés*/
 }*/
 
 .regulationsOne, .regulationsTwo, .regulationsThree {
-  padding-top: 0px; /*previously: 20px*/
+  padding-top: 0; /*previously: 20px*/
   margin: 10px;
 }
 
@@ -100,6 +101,7 @@ footer .socialNetworks {
   .footer {
     height: 170px;
   }
+}
 
   .regulations ul {
     display: flex;
@@ -111,4 +113,5 @@ footer .socialNetworks {
   /*DESKTOP .socialNetworks: en colonne sur la droite*/
   .socialNetworks ul{
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+  }
