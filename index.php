@@ -19,7 +19,9 @@
     </section>
 <!------------PROMOTION------------->
 <section class="food">
-    <img class="promotion" src="assets/images/pop-corn.jpeg" alt="popcorn">
-    <img class="mcdo" src="assets/images/2-2.jpeg" alt="menu-cinéma">
+    <img class="promotion" src="../assets/images/pop-corn.jpeg" alt="popcorn">
+    <img class="mcdo" src="../assets/images/2-2.jpeg" alt="menu-cinéma">
 </section>
-<?php include "_includes/footer.php"; ?>
+
+<?php include "_includes/footer.php";?>
+

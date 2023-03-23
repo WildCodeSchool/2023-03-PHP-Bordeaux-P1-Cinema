@@ -23,9 +23,9 @@
     </div>
 </div>
 <!----------End of movie description------->
-<h2>Galerie</h2>
-<!---- Start of gallery------>
-<div class="pictureGallery">
+<!--<h2>Galerie</h2>
+<!- Start of gallery------>
+<!--<div class="pictureGallery">
     <img src="assets/capture/345676.jpg" alt="personnages-avatar">
     <img src="assets/capture/4941-800x450-c-default.jpg" alt="enfant qui nage-avatar">
     <img src="assets/capture/arton1716-1450x800-c.jpg" alt="guerre-avatar">
@@ -33,7 +33,6 @@
     <img src="assets/capture/image.jpg" alt="viewpoint-avatar">
     <img src="assets/capture/Polemique-peut-on-encore-lire-Autant-en-emporte-le-vent-aujourd-hui.jpg" alt="personnages qui volent-avatar">
 </div>
-<!------- End of gallery------->
-<?php
-include "_includes/footer.php";
-?>
+<!- End of gallery------->
+
+<?php include "_includes/footer.php";?>

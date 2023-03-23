@@ -23,9 +23,9 @@
 </div>
 
 <!----------End of movie description------->
-<h2>Galerie</h2>
-<!---- Start of gallery------>
-<div class="pictureGallery">
+<!--<h2>Galerie</h2>
+<!- Start of gallery------>
+<!--<div class="pictureGallery">
     <img src="assets/capture/61e002bd4184d_61e002c4260f8.jpeg" alt="personnages-avatar">
     <img src="assets/capture/2106_0130_v0477.1241.jpg" alt="enfant qui nage-avatar">
     <img src="assets/capture/3206108-1256x826.jpeg" alt="guerre-avatar">
@@ -33,5 +33,6 @@
     <img src="assets/capture/Avatar 2 2021 Big__w770.jpg" alt="viewpoint-avatar">
     <img src="assets/capture/4176973.jpg-r_1920_1080-f_jpg-q_x-xxyxx.jpg" alt="personnages qui volent-avatar">
 </div>
-<!------- End of gallery------->
-<?php include "_includes/footer.php"; ?>
+<!- End of gallery------->
+
+<?php include "_includes/footer.php";?>

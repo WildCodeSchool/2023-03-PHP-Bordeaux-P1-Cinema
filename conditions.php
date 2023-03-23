@@ -90,6 +90,3 @@
     <!--fin des Conditions Générales-->
 </main>
 <!--fin des conditions-->
-<?php
-include "_includes/footer.php";
-?>
