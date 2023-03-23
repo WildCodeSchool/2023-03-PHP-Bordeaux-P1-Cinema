@@ -10,10 +10,10 @@
     <section class="oldMovieGallery">
         <h2>Nos classiques du moment</h2>
         <article>
-            <img src="assets/images/terminator2.jpg">
-            <img src="assets/images/the5Element.jpg">
-            <img src="assets/images/matrix.jpg">
-            <img src="assets/images/Autant%20en%20emporte%20le%20vent_0002.jpg">
+            <img src="/assets/images/terminator2.jpg">
+            <img src="/assets/images/the5Element.jpg">
+            <img src="/assets/images/matrix.jpg">
+            <img src="/assets/images/Autant%20en%20emporte%20le%20vent_0002.jpg">
         </article>
         <!---------------End of Classic Movie----------->
     </section>

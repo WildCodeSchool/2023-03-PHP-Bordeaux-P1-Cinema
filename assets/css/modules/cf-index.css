@@ -80,7 +80,7 @@ h3{
 
 }
 @media screen and (min-width: 968px){
-    #backgroundMovie{background: url("../../background/screamTop.jpg") no-repeat top center ;background-size: cover;height: 600px;min-width:100vw}
+    #backgroundMovie{background: url("../../background/screamTop.jpg") no-repeat top center ;background-size: cover;height: 600px;max-width:100vw}
     .contactDetails{flex-direction:row;flex-wrap: wrap;align-items: flex-start;justify-content:space-between;width: 80% ;margin:auto}
     .contactDetails article:first-child{width: 59% ;}
     .contactDetails article:nth-child(2){width: 35% ;}
