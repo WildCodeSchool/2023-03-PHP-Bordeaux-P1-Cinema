@@ -1,4 +1,4 @@
-
+git pull
 <section class="slider">
 
   <div class="container">
