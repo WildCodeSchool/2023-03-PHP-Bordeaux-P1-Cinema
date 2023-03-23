@@ -4,6 +4,7 @@
     justify-content: center;
     overflow-x: hidden;
     height: 100vh;
+    width: 100%;
     font-family: 'Urbanist', sans-serif;
 }
 
@@ -35,8 +36,8 @@ input.d-none {
 .cards {
 
     position: relative;
-    height: 620px;
-    width: 430px;
+    height: 800px;
+    width: 560px;
     margin-bottom: 20px;
     perspective: 1000px;
     transform-style: preserve-3d;
