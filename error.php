@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="assets\images\jean.png"></img>
+    <img class= "joke" src="assets/images/jean.png" style="margin-left: 25%"></img>
     
 </body>
 </html>
