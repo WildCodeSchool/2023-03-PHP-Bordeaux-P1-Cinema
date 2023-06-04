@@ -16,11 +16,7 @@ a {
 ul {
   display: flex;
   list-style-type: none;
-<<<<<<< HEAD
 }
-=======
-  }
->>>>>>> c7a1516dbb65dd6d2f9595f92871ea456b1c09ee
 
 .copyrightFooter {
   display: flex;
@@ -28,10 +24,7 @@ ul {
   color:var(--link-color);
   font-size: 1.5em;
   font-family: "Bebas neue", Arial, serif;
-<<<<<<< HEAD
-=======
   bottom: 0;
->>>>>>> c7a1516dbb65dd6d2f9595f92871ea456b1c09ee
 }
 /* --------REGULATIONS--------*/
 .regulations {
@@ -68,8 +61,4 @@ ul {
   .footer {
     height: 170px;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c7a1516dbb65dd6d2f9595f92871ea456b1c09ee
